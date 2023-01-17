@@ -1,9 +1,18 @@
 # GitHub Pages User Site
 
+## Requirements
+
+Just Docker. Hugo will be run from a Docker container. The `hugo_cli.sh` script accepts
+arbitrary arguments, and they are passed to the `hugo` binary within the Docker
+container.
+
+
 ## Build
 
+Invoke the Hugo CLI in Docker with no args:
+
 ```
-./scripts/hugo_build.sh
+./scripts/hugo_cli.sh
 ```
 
 
@@ -14,7 +23,18 @@
 ```
 
 
-## TODO
+## Creating new content
 
-* Currently deploys to `https://mfisher87.github.io/mfisher87/`, but really want it to
-  deploy to `https://mfisher87.github.io/`
+When creating new content using Hugo tooling, the front-matter is automatically
+calculated based on an archetype in the `archetypes/` dir. If none is specified, default
+is used. E.g. to create a post:
+
+```
+./scripts/hugo_cli.sh add -k post posts/foo.md
+```
+
+To create a regular page:
+
+```
+./scripts/hugo_cli.sh add about.md
+```
