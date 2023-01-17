@@ -1,14 +1,20 @@
-### Matt Fisher, Software Developer @ NSIDC
+# Development README
 
-- 🔭 I’m currently working on [QGreenland](https://github.com/nsidc/qgreenland)
-- 📫 How to reach me: mfisher87@gmail.com
-- 😄 Pronouns: He
-- 📄 [Visit my profile site](https://mfisher87.github.io)
+## Build
 
-<!--
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- ⚡ Fun fact: 
--->
+```
+./scripts/hugo_build.sh
+```
+
+
+## Dev server
+
+```
+./scripts/hugo_dev.sh
+```
+
+
+## TODO
+
+* Currently deploys to `https://mfisher87.github.io/mfisher87/`, but really want it to
+  deploy to `https://mfisher87.github.io/`
