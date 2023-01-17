@@ -25,6 +25,9 @@ Invoke the Hugo CLI in Docker with no args:
 
 ## Creating new content
 
+_NOTE:_ All content is created in the "draft" state. To view it, change `draft: true` to
+`false`.
+
 When creating new content using Hugo tooling, the front-matter is automatically
 calculated based on an archetype in the `archetypes/` dir. If none is specified, default
 is used. E.g. to create a post:

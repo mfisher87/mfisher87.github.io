@@ -3,3 +3,5 @@ languageCode = 'en-us'
 theme = 'ananke'
 
 baseURL = 'http://example.org/'
+
+SectionPagesMenu = 'main'
