@@ -30,11 +30,11 @@ calculated based on an archetype in the `archetypes/` dir. If none is specified,
 is used. E.g. to create a post:
 
 ```
-./scripts/hugo_cli.sh add -k post posts/foo.md
+./scripts/hugo_cli.sh new -k post posts/foo.md
 ```
 
 To create a regular page:
 
 ```
-./scripts/hugo_cli.sh add about.md
+./scripts/hugo_cli.sh new about.md
 ```
