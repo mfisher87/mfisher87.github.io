@@ -1,4 +1,4 @@
-# Development README
+# GitHub Pages User Site
 
 ## Build
 
