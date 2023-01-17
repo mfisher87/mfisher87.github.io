@@ -1,0 +1,4 @@
+# Hugo ephemera
+.hugo_build.lock
+public/
+resources/
