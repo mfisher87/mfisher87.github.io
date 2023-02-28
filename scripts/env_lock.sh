@@ -2,4 +2,4 @@
 
 ROOT_DIR="$(git rev-parse --show-toplevel)"
 
-conda env export | grep -v "^prefix" > "${ROOT_DIR}/environment-lock.yml"
+conda env export -n mfisher-homepage | grep -v "^prefix" > "${ROOT_DIR}/environment-lock.yml"
