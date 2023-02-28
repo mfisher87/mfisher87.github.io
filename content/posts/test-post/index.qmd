@@ -1,0 +1,36 @@
+---
+title: "Test post, please ignore"
+author: "Matt Fisher"
+date: "2023-02-27"
+categories: [news]
+---
+
+This is a test blog post rendered using [Quarto](https://quarto.org) ❤️
+
+With Quarto, I can render math:
+
+$$\tau > \pi$$
+
+
+...and I can calculate results:
+
+```{python}
+import math
+math.tau > math.pi
+```
+
+
+... and I can show maps and plots:
+
+```{python}
+import cartopy.crs as ccrs
+import matplotlib.pyplot as plt
+
+ax = plt.axes(projection=ccrs.NorthPolarStereo(central_longitude=-45))
+ax.set_extent([-180, 180, 90, 40], crs=ccrs.PlateCarree())
+ax.stock_img()
+
+# TODO: Put some data on the map
+
+plt.show()
+```
