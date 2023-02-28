@@ -22,10 +22,11 @@ concurrency:
   cancel-in-progress: true
 
 
-# Default to bash
+# Default to bash in login mode
+# https://github.com/mamba-org/provision-with-micromamba#IMPORTANT
 defaults:
   run:
-    shell: "bash"
+    shell: "bash -l {0}"
 
 
 jobs:
@@ -36,13 +37,19 @@ jobs:
       - name: "Checkout"
         uses: "actions/checkout@v3"
 
-      - name: "Install Conda environment from environment.yml"
-        uses: "mamba-org/provision-with-micromamba@main"
+      # For some reason, micromamba doesn't like `environment-lock.yml`,
+      # seemingly because it expects a different format. Maybe because the
+      # filename includes "lock"?
+      - name: "HACK: Replace environment YAML with lockfile"
+        run: "mv environment-lock.yml environment.yml"
 
-      - name: "Render"
-        uses: "quarto-dev/quarto-actions/render@v2"
+      - name: "Install Conda environment"
+        uses: "mamba-org/provision-with-micromamba@main"
         with:
-          path: "./content"
+          cache-env: true
+
+      - name: "Render Quarto website"
+        run: "quarto render ./content"
 
       - name: "Upload artifact"
         uses: "actions/upload-pages-artifact@v1"
