@@ -13,15 +13,15 @@
 version: 1
 metadata:
   content_hash:
-    osx-64: afa5346b614d2e789b461d764dfc42de98d70c9a86b7b66654ae89a619035df3
-    linux-64: afe7b8e20457e06efbb26c153a86a1893ed40ddb05ae62094fce3ee5304921b0
-    win-64: 5ef4c3c02a9f4ff35aa6d6123154d1e1ec42cd37f31eace6a72e8523c99538f8
+    osx-64: c2ccd3a86813af18ea19782a2f92b5a82e01c89f64a020ad6dea262aae638e48
+    linux-64: 06e0621a9712fb0dc0b16270ddb3e0be16982b203fc71ffa07408bf4bb7c22ec
+    win-64: efee77261626b3877b9d7cf7bf5bef09fd8e5ddfc79349a5f598ea6c8891ee84
   channels:
   - url: conda-forge
     used_env_vars: []
   platforms:
-  - osx-64
   - linux-64
+  - osx-64
   - win-64
   sources:
   - environment.yml
@@ -295,15 +295,15 @@ package:
   category: main
   optional: false
 - name: deno
-  version: 1.25.2
+  version: 1.28.2
   manager: conda
   platform: linux-64
   dependencies:
     libgcc-ng: '>=12'
-  url: https://conda.anaconda.org/conda-forge/linux-64/deno-1.25.2-h2f28480_0.tar.bz2
+  url: https://conda.anaconda.org/conda-forge/linux-64/deno-1.28.2-h2f28480_0.conda
   hash:
-    md5: b9f991fa8000b7a36cf561e73ef1dfc0
-    sha256: d27744af643b4ce20ddd59390e068865594921f7f47d064f0b703c5e572e6a14
+    md5: 4d086b73971d25ab801b9e6455788a0e
+    sha256: a850d7c16c9e87951867df4394b25b5be6fd97c58189559700677501dfdd92e3
   category: main
   optional: false
 - name: geos
@@ -785,15 +785,15 @@ package:
   category: main
   optional: false
 - name: deno-dom
-  version: 0.1.23
+  version: 0.1.35
   manager: conda
   platform: linux-64
   dependencies:
     deno: '>=1.24.2'
-  url: https://conda.anaconda.org/conda-forge/linux-64/deno-dom-0.1.23-hd9586b0_0.conda
+  url: https://conda.anaconda.org/conda-forge/linux-64/deno-dom-0.1.35-hd9586b0_1.conda
   hash:
-    md5: 94a6a4d2197802a22563d73c9f2c7bb8
-    sha256: dbfd93dda61f0cb7164fc8658157bc7a49ab5b32518e82cf603ba43e179eedb7
+    md5: 263ee0870b18b013d9ec8539113ac69f
+    sha256: 386c157bf2eebe4fc58e63c26784d084eaa71cf1020257c30a430624631415fd
   category: main
   optional: false
 - name: expat
@@ -1032,15 +1032,15 @@ package:
   category: main
   optional: false
 - name: pandoc
-  version: 2.19.2
+  version: 3.1.1
   manager: conda
   platform: linux-64
   dependencies:
     libzlib: '>=1.2.13,<1.3.0a0'
-  url: https://conda.anaconda.org/conda-forge/linux-64/pandoc-2.19.2-h32600fe_2.conda
+  url: https://conda.anaconda.org/conda-forge/linux-64/pandoc-3.1.1-h32600fe_0.conda
   hash:
-    md5: 326f46f36d15c44cff5f81d505cb717f
-    sha256: f9452f407a1c298d091279c8255e1db301c1d5b772ccf2e7e60d370b45d21fc7
+    md5: 68dcea6605bcebb17215d2b4efb3e1cf
+    sha256: d4d9fd83e2a94b3df8189dd96e52a4dfce2c23592e5452ffdf9cdc281a18a7a8
   category: main
   optional: false
 - name: pcre2
@@ -1353,19 +1353,19 @@ package:
   category: main
   optional: false
 - name: quarto
-  version: 1.2.475
+  version: 1.3.427
   manager: conda
   platform: linux-64
   dependencies:
     dart-sass: ''
-    deno: '>=1.25.2,<1.25.3.0a0'
-    deno-dom: '>=0.1.23,<0.1.24.0a0'
+    deno: '>=1.28.2,<1.28.3.0a0'
+    deno-dom: '>=0.1.35,<0.1.36.0a0'
     esbuild: ''
-    pandoc: '>=2.19.2,<2.19.3.0a0'
-  url: https://conda.anaconda.org/conda-forge/linux-64/quarto-1.2.475-ha770c72_0.conda
+    pandoc: '>=3.1.1,<3.1.2.0a0'
+  url: https://conda.anaconda.org/conda-forge/linux-64/quarto-1.3.427-ha770c72_0.conda
   hash:
-    md5: b8b454ea7f96f981e5f8accc261e918b
-    sha256: 27e1691bff63e839c030b92fb975db611efcc5fe1218d594ba43d1c0ec102d41
+    md5: 5937c4804accf801c9009be3954e9372
+    sha256: 7cefc690ab32334475836e80fa195244464aed23777215ce7471cf2217d159b8
   category: main
   optional: false
 - name: sqlite
@@ -3901,17 +3901,6 @@ package:
     sha256: 7841b1fce1ffb0bfb038f9687b92f04d64acab1f7cb96431972386ea98c7b2fd
   category: main
   optional: false
-- name: pandoc
-  version: 2.19.2
-  manager: conda
-  platform: osx-64
-  dependencies: {}
-  url: https://conda.anaconda.org/conda-forge/osx-64/pandoc-2.19.2-h694c41f_2.conda
-  hash:
-    md5: de3014568ff5004048dd09ba73990430
-    sha256: 318f0517df3340002ceff420f7def25e416bcbd9875621f2bde33fc8e27c2baf
-  category: main
-  optional: false
 - name: pthread-stubs
   version: '0.4'
   manager: conda
@@ -3990,15 +3979,15 @@ package:
   category: main
   optional: false
 - name: deno
-  version: 1.25.2
+  version: 1.28.2
   manager: conda
   platform: osx-64
   dependencies:
     __osx: '>=10.11'
-  url: https://conda.anaconda.org/conda-forge/osx-64/deno-1.25.2-he996c65_0.tar.bz2
+  url: https://conda.anaconda.org/conda-forge/osx-64/deno-1.28.2-he996c65_0.conda
   hash:
-    md5: 423d6041a3d7f467059e78311d3570a9
-    sha256: 9fd8ecb14c1d7c5d3b164463b4b914f29a23c95dbb48ba72c056af6ace752cb7
+    md5: 94d1d6c83d48e07412f99705a097a513
+    sha256: adc100b34fa375c51e3ce8f16bed882e03e7e25d4a770cca30ea185c83827f1c
   category: main
   optional: false
 - name: geos
@@ -4185,6 +4174,18 @@ package:
     sha256: 67855f92bf50f24cbbc44879864d7a040b1f351e95b599cfcf4cc49b2cc3fd08
   category: main
   optional: false
+- name: pandoc
+  version: 3.1.1
+  manager: conda
+  platform: osx-64
+  dependencies:
+    libzlib: '>=1.2.13,<1.3.0a0'
+  url: https://conda.anaconda.org/conda-forge/osx-64/pandoc-3.1.1-h9d075a6_0.conda
+  hash:
+    md5: 5d082d93256a60f6311068849f7fca10
+    sha256: 00f7619f51e13bd86f2812c4945f6d9828dc41ab4327eb1d6eab9a9bc4de3d7f
+  category: main
+  optional: false
 - name: pcre2
   version: '10.40'
   manager: conda
@@ -4262,15 +4263,15 @@ package:
   category: main
   optional: false
 - name: deno-dom
-  version: 0.1.23
+  version: 0.1.35
   manager: conda
   platform: osx-64
   dependencies:
     deno: '>=1.24.2'
-  url: https://conda.anaconda.org/conda-forge/osx-64/deno-dom-0.1.23-h08cba0f_0.conda
+  url: https://conda.anaconda.org/conda-forge/osx-64/deno-dom-0.1.35-h08cba0f_1.conda
   hash:
-    md5: 1f05de886c5616698e35afa51169be75
-    sha256: ecb93dbce98b329b57a71c1a0a2901cf2d96d020f38d6c1478e5b63acd6b51ed
+    md5: a066a401b756000c623b09113f59f9c1
+    sha256: b743fc9a6bcb5991321a4a7c35fcdac04b64b13b232f624052b34e31585a2e74
   category: main
   optional: false
 - name: freetype
@@ -4434,6 +4435,7 @@ package:
     tk: '>=8.6.12,<8.7.0a0'
     tzdata: ''
     xz: '>=5.2.6,<6.0a0'
+    pip: ''
   url: https://conda.anaconda.org/conda-forge/osx-64/python-3.11.4-h30d4d87_0_cpython.conda
   hash:
     md5: e40b3075f85db0184d5f61d17c580ef7
@@ -5091,19 +5093,19 @@ package:
   category: main
   optional: false
 - name: quarto
-  version: 1.2.475
+  version: 1.3.427
   manager: conda
   platform: osx-64
   dependencies:
     dart-sass: ''
-    deno: '>=1.25.2,<1.25.3.0a0'
-    deno-dom: '>=0.1.23,<0.1.24.0a0'
+    deno: '>=1.28.2,<1.28.3.0a0'
+    deno-dom: '>=0.1.35,<0.1.36.0a0'
     esbuild: ''
-    pandoc: '>=2.19.2,<2.19.3.0a0'
-  url: https://conda.anaconda.org/conda-forge/osx-64/quarto-1.2.475-h694c41f_0.conda
+    pandoc: '>=3.1.1,<3.1.2.0a0'
+  url: https://conda.anaconda.org/conda-forge/osx-64/quarto-1.3.427-h694c41f_0.conda
   hash:
-    md5: 143f22e72b2a0532290ab2994c567d6e
-    sha256: b6a16175714076263c25ab511eb004ba9e132135ef061bba89db066b534789e8
+    md5: e610348569006befc14a45e22c534fd0
+    sha256: fbd18e2f181ab4e9ab04a0f1721e4126f71408ca4723bae0cac269f0efaf66f0
   category: main
   optional: false
 - name: rfc3986-validator
@@ -5261,6 +5263,18 @@ package:
   hash:
     md5: 1dd6387a73d84e16b6f73de676bb4c36
     sha256: 713075726a3e1db115dfeb48c448e72a8eb7c378af3e2598094a021bc21ce0fd
+  category: main
+  optional: false
+- name: wheel
+  version: 0.40.0
+  manager: conda
+  platform: osx-64
+  dependencies:
+    python: '>=3.7'
+  url: https://conda.anaconda.org/conda-forge/noarch/wheel-0.40.0-pyhd8ed1ab_0.conda
+  hash:
+    md5: 49bb0d9e60ce1db25e151780331bb5f3
+    sha256: 79b4d29b0c004014a2abd5fc2c9fcd35cc6256222b960c2a317a27c4b0d8884d
   category: main
   optional: false
 - name: widgetsnbextension
@@ -5555,6 +5569,20 @@ package:
   hash:
     md5: c87c306c4ce9042f52c956d9517026da
     sha256: 6c48af0268b30e4d59023b9874d037213e1fa949eaf4cee08b0ba7b5cdfb53ac
+  category: main
+  optional: false
+- name: pip
+  version: 23.1.2
+  manager: conda
+  platform: osx-64
+  dependencies:
+    python: '>=3.7'
+    setuptools: ''
+    wheel: ''
+  url: https://conda.anaconda.org/conda-forge/noarch/pip-23.1.2-pyhd8ed1ab_0.conda
+  hash:
+    md5: 7288da0d36821349cf1126e8670292df
+    sha256: 4fe1f47f6eac5b2635a622b6f985640bf835843c1d8d7ccbbae0f7d27cadec92
   category: main
   optional: false
 - name: proj
@@ -6593,14 +6621,14 @@ package:
   category: main
   optional: false
 - name: pandoc
-  version: 2.19.2
+  version: 3.1.1
   manager: conda
   platform: win-64
   dependencies: {}
-  url: https://conda.anaconda.org/conda-forge/win-64/pandoc-2.19.2-h57928b3_2.conda
+  url: https://conda.anaconda.org/conda-forge/win-64/pandoc-3.1.1-h57928b3_0.conda
   hash:
-    md5: c188f67e94153ddc7e4e10ae127cbb1a
-    sha256: fd1b6a03c17a179718447afaded78ae54bbd9d1603412b704dfb97d7cb42d303
+    md5: 71f11eb19ae575ee0b52d0d58fb018f3
+    sha256: 2e9505e98eb7866bedd726168f18f7d9eb6e9d560e1fed6c7302881841c037a4
   category: main
   optional: false
 - name: python_abi
@@ -6735,16 +6763,17 @@ package:
   category: main
   optional: false
 - name: deno
-  version: 1.25.2
+  version: 1.28.2
   manager: conda
   platform: win-64
   dependencies:
+    ucrt: '>=10.0.20348.0'
     vc: '>=14.2,<15'
     vs2015_runtime: '>=14.29.30139'
-  url: https://conda.anaconda.org/conda-forge/win-64/deno-1.25.2-h975169c_0.tar.bz2
+  url: https://conda.anaconda.org/conda-forge/win-64/deno-1.28.2-h975169c_0.conda
   hash:
-    md5: b8de4b22d56a2c65249cea82ad2ba01d
-    sha256: 71755bbe5618b72bcc6d6e77cf864fc7e2a8efd5308e1ad3f65093f23093c330
+    md5: 8eb099a2d25a7fc2ed82c18566490556
+    sha256: 5df401e3b1b387af5a55248a3e380addf8d4196105fd343fc55e11e7a5d6c59b
   category: main
   optional: false
 - name: geos
@@ -7004,15 +7033,15 @@ package:
   category: main
   optional: false
 - name: deno-dom
-  version: 0.1.23
+  version: 0.1.35
   manager: conda
   platform: win-64
   dependencies:
     deno: '>=1.24.2'
-  url: https://conda.anaconda.org/conda-forge/win-64/deno-dom-0.1.23-h8b8d39b_0.conda
+  url: https://conda.anaconda.org/conda-forge/win-64/deno-dom-0.1.35-h8b8d39b_1.conda
   hash:
-    md5: f0723189af9c68c69aaa9169b03e1276
-    sha256: b54010bac141e8532b106269e4d0ffc05c4b817efbdc0faee516db03b51b62df
+    md5: e1b95d707e592ee1f8d20986c449d927
+    sha256: b8368da706bb912606eb5063e1535fe3075a23c063461a13cf95d05567ae4e15
   category: main
   optional: false
 - name: gettext
@@ -7908,19 +7937,19 @@ package:
   category: main
   optional: false
 - name: quarto
-  version: 1.2.475
+  version: 1.3.427
   manager: conda
   platform: win-64
   dependencies:
     dart-sass: ''
-    deno: '>=1.25.2,<1.25.3.0a0'
-    deno-dom: '>=0.1.23,<0.1.24.0a0'
+    deno: '>=1.28.2,<1.28.3.0a0'
+    deno-dom: '>=0.1.35,<0.1.36.0a0'
     esbuild: ''
-    pandoc: '>=2.19.2,<2.19.3.0a0'
-  url: https://conda.anaconda.org/conda-forge/win-64/quarto-1.2.475-h57928b3_0.conda
+    pandoc: '>=3.1.1,<3.1.2.0a0'
+  url: https://conda.anaconda.org/conda-forge/win-64/quarto-1.3.427-h57928b3_0.conda
   hash:
-    md5: 6e7b73c8974b1b773b41af61029d839e
-    sha256: e145b01f77a96d2e93cfc2d521861634dc0aff472aacf00f2c86f5b380a8c79e
+    md5: 51bf229dad84cb786562c4c282a47b97
+    sha256: 184a7f600516678f7e116ca35b5e50795e2380dc21dddd497252c030808a9302
   category: main
   optional: false
 - name: rfc3986-validator
