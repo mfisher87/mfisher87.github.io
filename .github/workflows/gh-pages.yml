@@ -37,15 +37,11 @@ jobs:
       - name: "Checkout"
         uses: "actions/checkout@v3"
 
-      # For some reason, micromamba doesn't like `environment-lock.yml`,
-      # seemingly because it expects a different format. Maybe because the
-      # filename includes "lock"?
-      - name: "HACK: Replace environment YAML with lockfile"
-        run: "mv environment-lock.yml environment.yml"
-
       - name: "Install Conda environment"
-        uses: "mamba-org/provision-with-micromamba@main"
+        uses: "mamba-org/setup-micromamba@v1"
         with:
+          environment-file: "conda-lock.yml"
+          environment-name: "ci"
           cache-env: true
 
       - name: "Render Quarto website"
