@@ -2,7 +2,8 @@
 title: "Test post, please ignore"
 author: "Matt Fisher"
 date: "2023-02-27"
-categories: [news]
+categories:
+  - "news"
 ---
 
 This is a test blog post rendered using [Quarto](https://quarto.org) ❤️

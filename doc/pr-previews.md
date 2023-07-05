@@ -7,7 +7,13 @@ previews for community-driven website projects.
 
 ## Netlify configuration
 
-1. Link GitHub account
+Since we only use Netlify to host PR previews, we don't need a real site, and we don't
+need to link Netlify to our repo. We can simply create a blank "Hello world" site, and
+use [deploy previews](https://docs.netlify.com/site-deploys/deploy-previews/) for our
+PRs.
+
+1. Log in with GitHub account, or any other method. Sign up doesn't require a method of
+   payment as of this writing.
 1. Create a new site, without integrating with a Git repo. We're going to build with
    GitHub Actions, so we just need a plain boring site, which Netlify doesn't seem to
    want us to be able to do easily. This approach minimizes permissions granted to
@@ -26,6 +32,13 @@ previews for community-driven website projects.
 We're using [nwtgck/actions-netlify](https://github.com/nwtgck/actions-netlify) to push
 the build as a [deploy preview](https://docs.netlify.com/site-deploys/deploy-previews/)
 on Netlify.
+
+The GitHub Action workflow requires an extra permission to add comments to PRs:
+
+```yaml
+permissions:
+  pull-requests: "write"
+```
 
 
 ## Notes
