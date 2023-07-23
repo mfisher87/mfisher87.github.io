@@ -17,7 +17,8 @@ any command-line tooling. We used ReadTheDocs in my work on
 were not comfortable using Sphinx to meaningfully contribute to and review documentation
 changes. My goal is to replicate that experience in GitHub Pages.
 
-![GitHub Pages deployment sources](github-actions-deployment-source.png)
+![GitHub Pages deployment sources with "GitHub Actions (beta)"
+selected](github-actions-deployment-source.png)
 
 This post assumes you're using the "GitHub Actions" [deployment
 method](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site),
@@ -56,7 +57,7 @@ open collaboaration on GitHub.
 automatically run a [static site generator](https://jamstack.org/glossary/ssg/) to build
 an HTML/CSS/JS website from content authored in
 [Markdown](https://www.markdownguide.org/) in a GitHub
-repository](github-pages-workflow.png)
+repository](github-pages-workflow.png){#fig-gh-pages-workflow}
 
 
 ### Why not "Deploy from a branch"?
@@ -119,13 +120,13 @@ Requests next.
 ## 🔍 Achieving Pull Request previews {#sec-after-gh-pages-background}
 
 While GitHub Pages doesn't yet support Pull Request previews, I still want to use GitHub
-Pages for my live site. The workflow diagram shown above will be used when PRs are
-merged or when commits are pushed to the `main` branch.
+Pages for my live site. The workflow shown in @fig-gh-pages-workflow will be used when
+PRs are merged or when commits are pushed to the `main` branch.
 
 For the PR previews, I'll temporarily use a third-party free service: Netlify.
 
 ![An additional workflow for deploying Pull Request
-previews](github-actions-netlify-workflow.png)
+previews](github-actions-netlify-workflow.png){#fig-netlify-workflow}
 
 
 ### Why Netlify?
