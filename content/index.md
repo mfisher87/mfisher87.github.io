@@ -24,12 +24,18 @@ Ice Data Center](https://nsidc.org).
 ### Matt builds:
 
 <details>
-<summary>Tools for researchers</summary>
+<summary>Tools for researchers and educators</summary>
 * QGreenland ([site](https://qgreenland.org), [source](https://github.com/nsidc/qgreenland))
 </details>
 
 <details>
-<summary>Data ingestion pipelines</summary>
+<summary>Workshops for researchers and developers</summary>
+* [QGreenland researcher workshop](https://github.com/nsidc/qgreenland-2023-researcher-workshop/)
+* QGreenland developer workshop (coming 2024?)
+</details>
+
+<details>
+<summary>Geospatial data ingestion</summary>
 * [Sea Ice Index](https://nsidc.org/data/g02135/versions/3)
 * [Images of Antarctic Ice Shelves](https://nsidc.org/data/nsidc-0102/versions/2)
 </details>
@@ -48,12 +54,6 @@ Ice Data Center](https://nsidc.org).
 * Arctic Rain on Snow Study Interactive Map ([site](https://nsidc.org/rain-on-snow), [source](https://github.com/nsidc/aross-map))
 * [ChArctic](https://nsidc.org/arcticseaicenews/charctic-interactive-sea-ice-graph/)
 * Imagery for [Sea Ice Outlook](https://www.arcus.org/sipn/sea-ice-outlook/2022)
-</details>
-
-<details>
-<summary>Workshops for researchers and developers</summary>
-* [QGreenland researcher workshop](https://github.com/nsidc/qgreenland-2023-researcher-workshop/)
-* QGreenland developer workshop (coming 2024?)
 </details>
 
 
