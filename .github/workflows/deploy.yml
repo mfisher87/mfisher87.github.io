@@ -49,7 +49,7 @@ jobs:
         with:
           environment-file: "conda-lock.yml"
           environment-name: "ci"
-          cache-env: true
+          cache-environment: true
 
       - name: "Render Quarto website"
         run: "quarto render ./content"
