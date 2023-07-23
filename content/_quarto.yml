@@ -17,5 +17,6 @@ website:
         href: "https://github.com/mfisher87"
 format:
   html:
-    theme: "flatly"
-    css: "styles.css"
+    theme:
+      light: ["flatly", "styles.css"]
+      dark: ["darkly", "styles.css"]
