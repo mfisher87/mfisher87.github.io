@@ -1,6 +1,6 @@
 ---
 title: "Matt Fisher"
-image: "resources/janie_pfp.png"
+image: "assets/janie_pfp.png"
 about:
   template: "trestles"
   links:
