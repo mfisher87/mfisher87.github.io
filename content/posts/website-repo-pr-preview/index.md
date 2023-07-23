@@ -13,7 +13,7 @@ website previews for each Pull Request to my GitHub Pages repository?"_ Some ser
 like [ReadTheDocs](https://docs.readthedocs.io/en/stable/pull-requests.html), provide
 this workflow out-of-the-box to enable informed reviews to occur without needing to run
 any command-line tooling. We used ReadTheDocs in my work on
-[QGreenland](https://github.com/nsidc/qgreenland), and this workflow enabled people who
+[QGreenland](https://github.com/nsidc/qgreenland), and this workflow empowered people who
 were not comfortable using Sphinx to meaningfully contribute to and review documentation
 changes. My goal is to replicate that experience in GitHub Pages.
 
@@ -50,8 +50,8 @@ section](#sec-after-gh-pages-background).
 GitHub provides many free features to open-source projects on its platform. This
 includes GitHub Pages, a service for hosting "static" (HTML, CSS, Javascript) websites.
 In combination with open-source software and other GitHub services, you can achieve
-comparable power to "dynamic" web authoring tools like WordPress with the benefits of
-open collaboaration on GitHub.
+a comparable authoring experience to "dynamic" content management systems like
+WordPress. In addition, you get the benefits of open collaboaration on GitHub.
 
 ![A workflow using [GitHub Actions](https://github.com/features/actions) to
 automatically run a [static site generator](https://jamstack.org/glossary/ssg/) to build
@@ -167,7 +167,7 @@ for PRs.
       ![Netlify's interface to deploy "without connecting to
       Git"](netlify-deploy-without-connecting.png)
 
-    * Browse to and upload the mock site saved at `/tmp/netlify-site`!
+    * Browse to and upload the mock site saved at `/tmp/netlify-site`.
     * Netlify will create a site with a name like
       [verdant-blini-a8c2ad](https://verdant-blini-a8c2ad.netlify.app).
 1. Get the `Site ID` from the "Site configuration" menu, and save it as a [repo
@@ -290,8 +290,9 @@ jobs:
 ### How does this work for open-source teams?
 
 This setup relies on an individual's Netlify account. This is because Netlify starts to
-ask for money for team features. _What happens if the person with the Netlify account
-disappears from the project?_
+ask for money for team features.
+
+_What happens if the person with the Netlify account disappears from the project?_
 
 As long as you have other repository admins, or can fork the repository to a new home,
 you can always have another individual repeat the [Netlify configuration
@@ -309,13 +310,14 @@ repositories on the same Netlify "site" by including the repo name in the `alias
 to the `nwtgck/actions-netlify` action. I haven't tried it, but maybe it looks like:
 
 ```yaml
-alias: "{{github.event.repository.name}}-pr-${{ github.event.pull_request.number}}-preview"
+alias: "${{github.event.repository.name}}-pr-${{ github.event.pull_request.number}}-preview"
 ```
 
 
 ## 🏆 Acknowledgements
 
-* Thanks to reviewers: [Wei Ji](https://github.com/weiji14)
+* Thanks to reviewers: [Wei Ji](https://github.com/weiji14), [Robin
+  Fisher](https://github.com/itsarobin)
 * Thanks to developers of the actions I relied on.
 * This configuration was based on the [Quarto
   website](https://github.com/quarto-dev/quarto-web/blob/main/.github/workflows/preview.yml) project.
