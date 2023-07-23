@@ -308,7 +308,7 @@ repositories on the same Netlify "site" by including the repo name in the `alias
 to the `nwtgck/actions-netlify` action. I haven't tried it, but maybe it looks like:
 
 ```yaml
-          alias: "{{github.event.repository.name}}-pr-${{ github.event.pull_request.number}}-preview"
+alias: "{{github.event.repository.name}}-pr-${{ github.event.pull_request.number}}-preview"
 ```
 
 
