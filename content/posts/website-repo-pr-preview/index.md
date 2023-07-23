@@ -6,7 +6,7 @@ categories:
   - "tech"
 ---
 
-![Bot comment on successful deployment of a PR preview](github-netlify-deploy-comment.png)
+![A bot comment on successful deployment of a PR preview](github-netlify-deploy-comment.png)
 
 The purpose of this post is to review one solution to _"how do I provide automated
 website previews for each Pull Request to my GitHub Pages repository?"_ Some services,
@@ -164,7 +164,8 @@ for PRs.
 
     * In the Netlify dashboard, select the option to upload a folder:
 
-      ![Deploy "without connecting to Git"](netlify-deploy-without-connecting.png)
+      ![Netlify's interface to deploy "without connecting to
+      Git"](netlify-deploy-without-connecting.png)
 
     * Browse to and upload the mock site saved at `/tmp/netlify-site`!
     * Netlify will create a site with a name like
