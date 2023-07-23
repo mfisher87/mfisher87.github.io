@@ -5,6 +5,7 @@ website:
   title: "Matt Fisher"
   site-url: "https://mfisher87.github.io/"
   repo-url: &repo-url "https://github.com/mfisher87/mfisher87.github.io"
+  repo-subdir: "content"
   repo-actions: ["edit", "issue"]
 
   navbar:
