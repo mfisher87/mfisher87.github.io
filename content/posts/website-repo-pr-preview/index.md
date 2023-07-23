@@ -9,13 +9,15 @@ categories:
 ![A bot comment on successful deployment of a PR preview](github-netlify-deploy-comment.png)
 
 The purpose of this post is to review one solution to _"how do I provide automated
-website previews for each Pull Request to my GitHub Pages repository?"_ Some services,
-like [ReadTheDocs](https://docs.readthedocs.io/en/stable/pull-requests.html), provide
-this workflow out-of-the-box to enable informed reviews to occur without needing to run
-any command-line tooling. We used ReadTheDocs in my work on
-[QGreenland](https://github.com/nsidc/qgreenland), and this workflow empowered people who
-were not comfortable using Sphinx to meaningfully contribute to and review documentation
-changes. My goal is to replicate that experience in GitHub Pages.
+website previews for each Pull Request to my GitHub Pages repository?"_
+
+Some services, like
+[ReadTheDocs](https://docs.readthedocs.io/en/stable/pull-requests.html), provide this
+workflow out-of-the-box to enable informed reviews to occur without needing to run any
+command-line tooling. We used ReadTheDocs in my work on
+[QGreenland](https://github.com/nsidc/qgreenland), and this workflow empowered people
+who were not comfortable using Sphinx to meaningfully contribute to and review
+documentation changes. My goal is to replicate that experience in GitHub Pages.
 
 ![GitHub Pages deployment sources with "GitHub Actions (beta)"
 selected](github-actions-deployment-source.png)
