@@ -6,7 +6,9 @@ dependencies:
   - python ~=3.11.0
 
   # Framework dependencies
-  - quarto ~=1.3.427
+  # Temporarily avoid build 433 because of issue:
+  #     https://github.com/quarto-dev/quarto-cli/issues/6026
+  - quarto ~=1.3.427,!=1.3.433
   - jupyter ~=1.0.0
 
 
