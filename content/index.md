@@ -59,6 +59,7 @@ Ice Data Center](https://nsidc.org).
 
 ### Matt is excited about:
 
+* Community-owned software
 * Open Science and open-source software; teaching scientists how to use Git
 * Data visualization quality (e.g. appropriate and accessible colormaps)
 * Software documentation quality
