@@ -10,8 +10,8 @@ website:
 
   navbar:
     right:
-      # - text: CV
-      #   file: cv.qmd
+      - text: "Resume"
+        file: "resume.pdf"
       - text: "Posts"
         file: "posts/index.md"
       - icon: "github"
