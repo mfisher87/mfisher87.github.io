@@ -51,6 +51,9 @@ jobs:
           environment-name: "ci"
           cache-environment: true
 
+      - name: "Install TinyTeX"
+        run: "quarto install tinytex"
+
       - name: "Render Quarto website"
         run: "quarto render ./content"
 

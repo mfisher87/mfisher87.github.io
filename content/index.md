@@ -68,3 +68,6 @@ Ice Data Center](https://nsidc.org).
 * Music
 * DIY electronics and repair
 * Gardening
+
+
+### [View my resume](resume.pdf)
