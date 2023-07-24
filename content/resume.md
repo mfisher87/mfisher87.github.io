@@ -40,7 +40,8 @@ cloud.
   {Architected and developed a graphical data ordering system supporting most NSIDC data products},
   {Built public tiling map services for various NSIDC data products},
   {Modernized legacy \textit{Sea Ice Index} software and services},
-  {Developed geospatial data visualization tools including \textit{ChArctic}, \textit{Arctic Rain on Snow Study Interactive Map}, \textit{Snow Today}, and \textit{Greenland Today}}
+  {Developed geospatial data visualization tools including \textit{ChArctic}, \textit{Arctic Rain on Snow Study Interactive Map}, \textit{Snow Today}, and \textit{Greenland Today}},
+  {2022 CIRES Outstanding Performance Award recipient}
 }
 
 \cvevent{Jun. 2008 - Apr. 2016}{Senior Software Engineer}{Discover Financial Services}{
