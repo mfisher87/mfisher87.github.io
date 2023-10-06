@@ -10,6 +10,8 @@ website:
 
   navbar:
     right:
+      - text: "Cognitive load"
+        file: "cognitive_load.md"
       - text: "Resume"
         file: "resume.pdf"
       - text: "Posts"
