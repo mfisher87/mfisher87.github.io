@@ -68,7 +68,11 @@ repository](github-pages-workflow.png){#fig-gh-pages-workflow}
 final HTML/CSS/Javascript website content that will be hosted on GitHub Pages. I don't
 like that option because I don't feel that non-source materials belong in my repository.
 I would feel the same about including a compiled binary in my source repository; there
-are better places for that to live.
+are better places for that to live. Additionally, there are [security
+implications](https://github.com/rossjrw/pr-preview-action/pull/6) to allowing people
+who fork your repository to deploy code directly into a branch of your repository. Even
+if you _are_ using "Deploy from a branch", you may want to consider using a third-party
+service for PR previews.
 
 Deploying with the "GitHub Actions" method enables me to deploy the output of my build
 process by uploading it to GitHub as an "artifact". This atomic deployment method makes
