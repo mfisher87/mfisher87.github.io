@@ -91,8 +91,8 @@ jobs:
           publish-dir: "./_site"
           production-deploy: false
           github-token: "${{ secrets.GITHUB_TOKEN }}"
-          deploy-message: "Deploy from GHA: ${{ github.event.pull_request.title }}"
-          alias: "deploy-preview-${{ github.event.pull_request.number }}"
+          deploy-message: "Deploy from ${{ github.event.repository.full_name}} GHA: PR ${{ github.event.pull_request.number }} - ${{ github.event.pull_request.title }}"
+          alias: "${{ github.event.repository.name }}-pr-${{ github.event.pull_request.number }}-preview"
           # these all default to 'true'
           enable-pull-request-comment: true
           enable-commit-comment: false
