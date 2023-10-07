@@ -30,6 +30,11 @@ In 2021, GitHub [added footnote
 support](https://github.blog/changelog/2021-09-30-footnotes-now-supported-in-markdown-fields/)
 to GFM.
 
+Footnotes are commonly used in offline publications to prevent references from
+interrupting the flow of prose. While hyperlinks can serve this purpose, sometimes
+additional context about a reference can still be disruptive. Try them out in an Issue
+or Pull Request!
+
 
 ## :speech_balloon: Admonitions (2022 - Beta)
 
