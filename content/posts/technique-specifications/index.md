@@ -35,6 +35,14 @@ RFCs to Indicate Requirement Levels](https://www.ietf.org/rfc/rfc2119.txt) is, I
 critical for producing specifications that are useful.
 
 
+### Accessibility
+
+Specifications are, I think, seen as a lot of work, but that shouldn't be a reason we
+can't have them. Conda Forge, for example, has tens of thousands of conda packages that
+are maintained by volunteers. Packaging is a lot of work, too. I feel that the key to
+success is making this work more accessible by providing quality support.
+
+
 ### Version control
 
 Specifications should be written in Markdown and version-controlled on GitHub to
