@@ -62,6 +62,11 @@ instructions written for someone with no prior knowledge.
 Should specifications include an argument for their own value?
 
 
+### Findability
+
+How do you _find_ technique specifications?
+
+
 ## :test_tube: Ideas
 
 * Do some research... is anyone else thinking about this or doing this?
