@@ -46,7 +46,7 @@ looks great.
 
 ![GitHub's Markdown previewer doesn't support admonitions yet...](admonition_preview.png)
 
-![...but they work anyway after your submit the change!](admonition_render.png)
+![...but they work anyway after you submit the change!](admonition_render.png)
 
 I'll be using these as often as possible in READMEs, PR and issue descriptions, and
 comments. If you found this post by asking me "how did you do that?":
