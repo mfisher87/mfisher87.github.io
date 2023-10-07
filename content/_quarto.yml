@@ -12,10 +12,10 @@ website:
     right:
       - text: "Cognitive load"
         file: "cognitive_load.md"
+      - text: "Blog"
+        file: "posts/index.md"
       - text: "Resume"
         file: "resume.pdf"
-      - text: "Posts"
-        file: "posts/index.md"
       - icon: "github"
         href: "https://github.com/mfisher87"
 format:
