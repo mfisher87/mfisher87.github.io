@@ -23,3 +23,5 @@ format:
     theme:
       light: ["flatly", "styles.css"]
       dark: ["darkly", "styles.css"]
+    # Turn on emoji shortcodes:
+    from: "markdown+emoji"
