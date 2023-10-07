@@ -72,6 +72,13 @@ Any time you use a shortcode like `:crying_cat_face:`, it will be replaced with 
 like so: :crying_cat_face:.
 
 
+### Markdown is a superset of HTML!
+
+Any time you need something Markdown doesn't support, you can
+fall back to HTML. This enables centering images or text as well as the next trick,
+which is one of my favorites:
+
+
 ### Collapsible text
 
 You can collapse large text blocks, e.g. logs, with a `<details>` tag, like so:
@@ -99,7 +106,7 @@ You can collapse large text blocks, e.g. logs, with a `<details>` tag, like so:
 
 ### Admonitions from scratch
 
-Prior to the new beta admonition feautre, I'd write admonitions like this:
+Prior to the new beta admonition feature, I'd write admonitions like this:
 
 ```markdown
 > :warning: Watch out!
