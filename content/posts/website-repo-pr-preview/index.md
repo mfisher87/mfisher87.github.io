@@ -3,7 +3,8 @@ title: "Deploy pull request previews for GitHub Pages repositories"
 author: "Matt Fisher"
 date: "2023-07-22"
 categories:
-  - "tech"
+  - "github"
+  - "inclusiveness"
 ---
 
 ![A bot comment on successful deployment of a PR preview](github-netlify-deploy-comment.png)
