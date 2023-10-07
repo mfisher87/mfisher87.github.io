@@ -5,6 +5,7 @@ author: "Matt Fisher"
 date: "2023-10-07"
 categories:
   - "github"
+  - "markdown"
 ---
 
 Recently I've learned a few pleasantly-surprising things about GitHub Flavored Markdown
