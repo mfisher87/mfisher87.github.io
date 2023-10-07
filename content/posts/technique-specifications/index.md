@@ -26,8 +26,9 @@ this technique?"
 
 ## :sparkles: Technique specifications
 
-I propose a practice of documenting "technique specifications" that robustly specify the
-method, constraints, benefits, and limitations of a technique.
+I propose a practice of documenting "technique specifications", a form of technical
+specification that robustly specifies the method, constraints, benefits, and limitations
+of a technique.
 
 Adopting existing best practices for specifications, like [RFC2119: Key words for use in
 RFCs to Indicate Requirement Levels](https://www.ietf.org/rfc/rfc2119.txt) is, I feel,
