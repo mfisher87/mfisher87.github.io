@@ -46,7 +46,7 @@ and publishing tools like Sphinx, MkDocs, and Quarto.
 callouts](https://quarto.org/docs/authoring/callouts.html) look like this.
 :::
 
-This [beta feature](https://www.markdownguide.org/extended-syntax/#footnotes) is still
+This [beta feature](https://github.com/orgs/community/discussions/16925) is still
 in flux. It currently is not supported by GitHub's "preview", but on final render, it
 looks great.
 
