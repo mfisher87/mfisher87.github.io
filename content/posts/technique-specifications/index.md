@@ -1,7 +1,6 @@
 ---
 title: "Technique specifications"
 description: "Techniques are often casually shared in gists, READMEs, and Stack Overflow posts, but we lack methods to track their evolution."
-author: "Matt Fisher"
 date: "2023-10-07"
 categories:
   - "reproducibility"

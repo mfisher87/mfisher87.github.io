@@ -2,7 +2,6 @@
 title: "Things about GitHub Flavored Markdown (GFM) that surprised me"
 description: "GFM has been quietly growing over the years to include some features I've always wanted. Bonus tricks at the end!"
 image: "admonition_render.png"
-author: "Matt Fisher"
 date: "2023-10-07"
 categories:
   - "github"

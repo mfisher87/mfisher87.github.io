@@ -1,5 +1,9 @@
 # options specified here will apply to all posts in this folder
 
+author:
+  - name: "Matt Fisher"
+    orcid: "0000-0003-3260-5445"
+
 # Generate citations for every post
 #   see: https://quarto.org/docs/authoring/create-citeable-articles.html#web-articles
 citation: true
