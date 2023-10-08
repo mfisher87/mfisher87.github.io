@@ -1,7 +1,11 @@
 # options specified here will apply to all posts in this folder
 
-# freeze computational output
-# (see https://quarto.org/docs/projects/code-execution.html#freeze)
+# Generate citations for every post
+#   see: https://quarto.org/docs/authoring/create-citeable-articles.html#web-articles
+citation: true
+
+# Freeze computational output
+#   see: https://quarto.org/docs/projects/code-execution.html#freeze
 freeze: true
 
 # Enable banner style title blocks
