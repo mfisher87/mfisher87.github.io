@@ -111,5 +111,5 @@ a 3-day hands-on open-source workshop which broke ground by running the QGIS geo
 \cvevent{}{Personal interests}{Tech, music, nature}{
   {Playing, recording, developing, and contructing electric and acoustic musical instruments},
   {Self-hosted services and home automation with Home Assistant},
-  {Plants (esp. organic gardening) and animals (esp. dogs)}
+  {Plants (especially organic gardening) and animals (especially dogs)}
 }
