@@ -1,62 +1,95 @@
 ---
 author: "Matt Fisher"
-title: "Scientific / Geospatial Software Developer"
+title: "Open Source Geospatial Research Software Developer"
 format:
   classic-cv-pdf: "default"
 cvfooter:
-  left: "mfisher87.github.io"
-  right: "github.com/mfisher87"
+  left: "\\href{https://mfisher87.github.io}{mfisher87.github.io}"
+  right: "\\href{https://github.com/mfisher87}{github.com/mfisher87}"
 # A color hex code without `#`
-cvcolor: "1b4a0a"
+cvcolor: "2d7d11"
 # A texlive font like raleway,fetamont,gillius,comfortaa
 cvfont: "lato"
 cvmeta:
-  - title: "Field"
-    left: "Open Geospatial Software & Data Engineering"
-    right: "orcid.org/0000-0003-3260-5445"
-  - title: "Skills"
-    left: "Software architecture, Python, TypeScript, geospatial data, open science, FAIR & CARE, Linux, CI/CD"
-    right: "mfisher87@gmail.com"
   - title: "Status"
     left: "Associate Scientist III at National Snow and Ice Data Center"
     right: "Boulder, CO"
+  - title: "Field"
+    left: "Geospatial Software & Data Engineering"
+    right: "\\href{https://orcid.org/0000-0003-3260-5445}{orcid.org/0000-0003-3260-5445}"
+  - title: "Skills"
+    left: "Open science, FAIR & CARE, Python, TypeScript, software architecture, Linux, CI/CD, analytics"
+    right: "\\href{mailto:mfisher87@gmail.com}{mfisher87@gmail.com}"
 ---
 
-A scientific software developer passionate about open source, community
-ownership, and accessibility. Open-source software maintainer, co-author of
-\textit{QGreenland}, and co-author and administrator of \textit{QGreenland 2023
-Researcher Workshop}, a 3-day hands-on open-source workshop which broke ground
-by running the QGIS graphical analysis environment at classroom scale in the
-cloud.
+A research software developer passionate about open source, community ownership, accessibility, and inclusivity.
+Open-source software maintainer, co-author of \textit{QGreenland}, and co-author and instructor of \textit{QGreenland 2023 Researcher Workshop},
+a 3-day hands-on open-source workshop which broke ground by running the QGIS geospatial analysis environment at classroom scale in the cloud.
 
 
 # Experience
 
-\cvevent{Apr. 2016 - Present}{Scientific Sofware Developer}{National Snow and Ice Data Center}{
-  {Co-authored \textit{QGreenland}, a free interdisciplinary Greenland-focused GIS analysis and visualization environment},
-  {Co-authored \textit{QGreenland 2023 Researcher Workshop} and related guest post on Jupyter Blog},
-  {Trained scientists to use Git \& GitHub},
-  {Created data processing pipelines for scientific data products (e.g. \textit{Sea Ice Index}, \textit{Images of Antarctic Ice Shelves})},
-  {Architected and developed a graphical data ordering system supporting most NSIDC data products},
-  {Built public tiling map services for various NSIDC data products},
-  {Modernized legacy \textit{Sea Ice Index} software and services},
-  {Developed geospatial data visualization tools including \textit{ChArctic}, \textit{Arctic Rain on Snow Study Interactive Map}, \textit{Snow Today}, and \textit{Greenland Today}},
-  {2022 CIRES Outstanding Performance Award recipient}
+\cvevent{Apr. 2016 - Present}{Associate Scientist III}{National Snow and Ice Data Center}{
+  {\href{https://nasa-openscapes.github.io/mentors.html}{NASA Openscapes Mentor} - Trained researchers in open source development practices},
+  {%
+    \href{https://github.com/mfisher87/BSSw-fellowship-application}{Candidate}
+    for
+    \href{https://bssw.io/pages/bssw-fellowship-program}{2024 Better Scientific Software (BSSw) Fellowship}
+  },
+  {%
+    \href{https://cires.colorado.edu/about/institutional-programs/outstanding-performance-awards/all-recipients}{2022 CIRES Outstanding Performance Award recipient}
+    - for high-impact work in science communication
+  },
+  {Co-authored \href{https://qgreenland.org/}{\textit{QGreenland}}, a free interdisciplinary Greenland-focused GIS analysis and visualization environment},
+  {Co-authored
+    \href{https://github.com/qgreenland-workshop-2023-researcher/}{\textit{QGreenland 2023 Researcher Workshop}}
+    and
+    \href{https://blog.jupyter.org/desktop-gis-software-in-the-cloud-with-jupyterhub-ddced297019a}{related guest post on Jupyter Blog}
+  },
+  {\href{https://agu.confex.com/agu/fm23/meetingapp.cgi/Paper/1365725}{Presenter at American Geophysical Union 2023 Annual Meeting}},
+  {Architected and developed a graphical async data ordering system for NSIDC data},
+  {Created data processing pipelines and services for research data (e.g.
+    \href{https://nsidc.org/data/g02135}{\textit{Sea Ice Index}},
+    \href{https://nsidc.org/data/nsidc-0102}{\textit{Images of Antarctic Ice Shelves}})
+  },
+  {Modernized legacy software and services},
+  {Developed geospatial data visualization tools including:
+    \href{https://nsidc.org/arcticseaicenews/charctic-interactive-sea-ice-graph/}{\textit{ChArctic}},
+    \href{https://nsidc.org/apps/aross-leo-map/}{\textit{Arctic Rain on Snow Study Interactive Map}},
+    \href{https://nsidc.org/snow-today/snow-viewer}{\textit{Snow Today}},
+    \href{http://nsidc.org/greenland-today/2021/01/announcing-antarctica-today/}{\textit{Antarctica Today}},
+    and
+    \href{https://nsidc.org/greenland-today/greenland-surface-melt-extent-interactive-chart/}{\textit{Greenland Today}}
+  }
 }
 
 \cvevent{Jun. 2008 - Apr. 2016}{Senior Software Engineer}{Discover Financial Services}{
-  {Distributed transaction rewards processing system with dozens of vendor integrations serving >50 million customers},
-  {Business tools for configuring unique rewards promotions and analyzing performance},
-  {Analyzed transaction and rewards data to answer business questions},
-  {Built distributed Extract, Transform, \& Load systems (Ab Initio)},
+  {Developed
+    \href{https://www.discover.com/credit-cards/member-benefits/}{distributed cardmember rewards processing system}
+    with dozens of vendor integrations serving >50 million users
+  },
   {Extended a proprietary version control system to add branch support},
-  {Implemented internal documentation system (wiki), designed relational database (Oracle, IBM DB2) data models}
+  {Developed business tools for configuring unique rewards promotions and analyzing performance},
+  {Designed relational database (Oracle, IBM DB2) models}
 }
 
-\cvevent{}{Open Source Software Maintainer}{GitHub}{
-  {\textit{viscm} - A tool for developing mathematically-derived perceptually uniform scientific colormaps},
-  {\textit{viscm} conda-forge feedstock},
-  {\textit{Quarto} conda-forge feedstock}
+\cvevent{}{Open Source Software Developer}{Volunteer}{
+  {%
+    Maintainer of \href{https://github.com/matplotlib/viscm}{\textit{viscm}}
+    - A tool for developing mathematically-derived perceptually uniform scientific colormaps
+  },
+  {%
+    Contributor to \href{https://github.com/conda/conda-lock}{\textit{conda-lock}}
+  },
+  {%
+    Maintainer of \href{https://github.com/nsidc/earthaccess}{\textit{earthaccess}}
+  },
+  {%
+    Maintainer of \href{https://github.com/conda-forge/viscm-feedstock}{\textit{viscm} conda-forge feedstock}
+  },
+  {%
+    Maintainer of \href{https://github.com/conda-forge/quarto-feedstock}{\textit{Quarto} conda-forge feedstock}
+  }
 }
 
 
@@ -68,14 +101,12 @@ cloud.
 # About me
 
 \cvevent{}{Career interests}{Software communities, open science, collaboration}{
-  {Community-driven software development and sustainment},
-  {Open science and skills training for researchers},
-  {Collaborative computing}
+  {Education for researchers - open science and inclusive, sustainable community leadership},
+  {Collaborative development, i.e. "pair/group programming"}
 }
 
-\cvevent{}{Personal interests}{Tech, music, gardening, dogs}{
-  {Building electric and acoustic musical instruments},
-  {Playing and recording music (drums, keyboards)},
-  {Home automation and self-hosted services},
-  {Plants and animals, especially dogs}
+\cvevent{}{Personal interests}{Tech, music, nature}{
+  {Playing, recording, developing, and contructing electric and acoustic musical instruments},
+  {Self-hosted services and home automation with Home Assistant},
+  {Plants (esp. organic gardening) and animals (esp. dogs)}
 }
