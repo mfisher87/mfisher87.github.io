@@ -86,6 +86,7 @@ a 3-day hands-on open-source workshop which broke ground by running the QGIS geo
   },
   {%
     Maintainer of \href{https://github.com/nsidc/earthaccess}{\textit{earthaccess}}
+    - A library which simplifies searching, downloading, and streaming NASA Earth science data
   },
   {%
     Maintainer of \href{https://github.com/conda-forge/viscm-feedstock}{\textit{viscm} conda-forge feedstock}
