@@ -5,11 +5,13 @@ format:
   classic-cv-pdf: "default"
 cvfooter:
   left: "\\href{https://mfisher87.github.io}{mfisher87.github.io}"
-  right: "\\href{https://github.com/mfisher87}{github.com/mfisher87}"
+  # NOTE: Space added to fix off-center alignment
+  right: "\\ \\href{https://github.com/mfisher87}{github.com/mfisher87}"
 # A color hex code without `#`
 cvcolor: "2d7d11"
-# A texlive font like raleway,fetamont,gillius,comfortaa
-cvfont: "lato"
+# A texlive font like lato,raleway,fetamont,gillius,comfortaa; fetamont, comfortaa, and
+# lato all look OK
+cvfont: "fetamont"
 cvmeta:
   - title: "Status"
     left: "Associate Scientist III at National Snow and Ice Data Center"
