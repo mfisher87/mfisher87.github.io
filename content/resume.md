@@ -96,7 +96,7 @@ a 3-day hands-on open-source workshop which broke ground by running the QGIS geo
 
 # Education
 
-\cvevent{2005-2009}{Bachelor of Science in Computer Information Systems}{Peoria, Illinois, USA}{}
+\cvevent{2005-2009}{Bachelor of Science in Computer Information Systems}{Bradley University, Illinois, USA}{}
 
 
 # About me
