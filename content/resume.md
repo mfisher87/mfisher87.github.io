@@ -26,7 +26,7 @@ cvmeta:
 
 A research software developer passionate about open source, community ownership, accessibility, and inclusivity.
 Open-source software maintainer, co-author of \textit{QGreenland}, and co-author and instructor of \textit{QGreenland 2023 Researcher Workshop},
-a 3-day hands-on open-source workshop which broke ground by running the QGIS geospatial analysis environment at classroom scale in the cloud.
+a 3-day hands-on open-source workshop that broke ground by running the QGIS geospatial analysis environment at classroom scale in the cloud.
 
 
 # Experience
@@ -86,7 +86,7 @@ a 3-day hands-on open-source workshop which broke ground by running the QGIS geo
   },
   {%
     Maintainer of \href{https://github.com/nsidc/earthaccess}{\textit{earthaccess}}
-    - A library which simplifies searching, downloading, and streaming NASA Earth science data
+    - A library that simplifies searching, downloading, and streaming NASA Earth science data
   },
   {%
     Maintainer of \href{https://github.com/conda-forge/viscm-feedstock}{\textit{viscm} conda-forge feedstock}
