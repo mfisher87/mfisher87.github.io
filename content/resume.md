@@ -20,7 +20,7 @@ cvmeta:
     left: "Geospatial Software & Data Engineering"
     right: "\\href{https://orcid.org/0000-0003-3260-5445}{orcid.org/0000-0003-3260-5445}"
   - title: "Skills"
-    left: "Open science, FAIR & CARE, Python, TypeScript, software architecture, Linux, CI/CD, analytics"
+    left: "Open science, FAIR & CARE, Python, TypeScript, software architecture, Linux, containers, CI/CD, analytics"
     right: "\\href{mailto:mfisher87@gmail.com}{mfisher87@gmail.com}"
 ---
 
