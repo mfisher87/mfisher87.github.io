@@ -80,6 +80,7 @@ a 3-day hands-on open-source workshop which broke ground by running the QGIS geo
   },
   {%
     Contributor to \href{https://github.com/conda/conda-lock}{\textit{conda-lock}}
+    - A tool that enables reproducibile software environments in the Conda ecosystem 
   },
   {%
     Maintainer of \href{https://github.com/nsidc/earthaccess}{\textit{earthaccess}}
