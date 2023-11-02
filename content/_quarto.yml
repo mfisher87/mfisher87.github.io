@@ -17,7 +17,14 @@ website:
       - text: "Resume"
         file: "resume.pdf"
       - icon: "github"
+        aria-label: "GitHub"
         href: "https://github.com/mfisher87"
+
+  page-footer:
+    left: "© Matt Fisher 2023"
+    right: "Built with [Quarto](https://quarto.org/) ❤️"
+
+
 format:
   html:
     theme:
