@@ -66,6 +66,7 @@ a 3-day hands-on open-source workshop that broke ground by running the QGIS geos
 }
 
 \cvevent{Jun. 2008 - Apr. 2016}{Senior Software Engineer}{Discover Financial Services}{
+  {Developed and extended distributed systems on IBM AIX/GPFS and z/OS mainframe infrastructure},
   {Developed
     \href{https://www.discover.com/credit-cards/card-smarts/credit-card-rewards/}{distributed cardmember rewards processing system}
     with dozens of vendor integrations serving >50 million users
