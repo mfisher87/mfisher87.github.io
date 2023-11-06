@@ -28,7 +28,7 @@ website:
 format:
   html:
     theme:
-      light: ["flatly", "styles.css"]
-      dark: ["darkly", "styles.css"]
+      light: ["flatly", "styles.scss"]
+      dark: ["darkly", "styles.scss"]
     # Turn on emoji shortcodes:
     from: "markdown+emoji"
