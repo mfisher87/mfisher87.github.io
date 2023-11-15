@@ -10,10 +10,12 @@ website:
 
   navbar:
     right:
-      - text: "Cognitive load"
-        file: "cognitive_load.md"
       - text: "Blog"
         file: "posts/index.md"
+      - text: "Cognitive load"
+        file: "cognitive_load.md"
+      - text: "Links"
+        file: "links.md"
       - text: "Resume"
         file: "resume.pdf"
       - icon: "github"
