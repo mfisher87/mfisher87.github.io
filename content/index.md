@@ -21,7 +21,11 @@ about:
 Matt Fisher is a Research Associate (Software Developer) at [National Snow and
 Ice Data Center](https://nsidc.org).
 
-### Matt builds:
+
+<details>
+<summary>Technical instruction</summary>
+* [Certified Carpentries instructor](https://carpentries.org/instructors/)
+</details>
 
 <details>
 <summary>Tools for researchers and educators</summary>
