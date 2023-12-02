@@ -20,7 +20,7 @@ cvmeta:
     left: "Geospatial Software & Data Engineering"
     right: "\\href{https://orcid.org/0000-0003-3260-5445}{orcid.org/0000-0003-3260-5445}"
   - title: "Skills"
-    left: "Open science, FAIR & CARE, Python, TypeScript, software architecture, Linux, containers, CI/CD, analytics"
+    left: "Open science, teaching, FAIR & CARE, Python, TypeScript, software architecture, Linux, containers, CI/CD"
     right: "\\href{mailto:mfisher87@gmail.com}{mfisher87@gmail.com}"
 ---
 
@@ -90,15 +90,17 @@ a 3-day hands-on open-source workshop that broke ground by running the QGIS geos
     - A library that simplifies searching, downloading, and streaming NASA Earth science data
   },
   {%
-    Maintainer of \href{https://github.com/conda-forge/viscm-feedstock}{\textit{viscm} conda-forge feedstock}
-  },
-  {%
-    Maintainer of \href{https://github.com/conda-forge/quarto-feedstock}{\textit{Quarto} conda-forge feedstock}
+    Maintainer of conda-forge feedstocks:
+    \href{https://github.com/conda-forge/earthdata-feedstock}{\textit{earthaccess}},
+    \href{https://github.com/conda-forge/quarto-feedstock}{\textit{Quarto}},
+    \href{https://github.com/conda-forge/viscm-feedstock}{\textit{viscm}}
   }
 }
 
 
 # Education
+
+\cvevent{2023}{Certified Instructor}{The Carpentries}{}
 
 \cvevent{2005-2009}{Bachelor of Science in Computer Information Systems}{Bradley University, Illinois, USA}{}
 
