@@ -4,7 +4,7 @@ message: "Please cite this website using these metadata."
 title: "Matt Fisher's personal website"
 # TODO: https://github.com/citation-file-format/citation-file-format/issues/498
 # type: "presentation"
-# doi: "TODO"
+doi: "10.5281/zenodo.10397432"
 
 contact:
   - name: "Matt Fisher"
