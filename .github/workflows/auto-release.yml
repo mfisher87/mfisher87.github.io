@@ -5,7 +5,7 @@ on:
   push:
     branches: ["main"]
     paths:
-      - ".github/workflows/release.yml"
+      - ".github/workflows/auto-release.yml"
       - "content/**"
 
   # Run this workflow manually from the Actions tab
@@ -33,9 +33,11 @@ jobs:
         uses: "actions/setup-python@v5"
         with:
           python-version: '3.12'
+          # NOTE: To use the cache feature, we need a spec file, e.g.
+          # requirements.txt
           # TODO: Is using the cache slower than setting up the env fresh
           # each time? It's a small env.
-          cache: 'pip'
+          # cache: 'pip'
 
       - name: "Install bumpver"
         run: "pip install bumpver"
