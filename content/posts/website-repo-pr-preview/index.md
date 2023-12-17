@@ -1,10 +1,17 @@
 ---
-title: "Deploy pull request previews for GitHub Pages repositories"
+title: "Deploy pull request previews for GitHub Pages repositories (part 1)"
 date: "2023-07-22"
 categories:
   - "github"
   - "inclusiveness"
 ---
+
+:::{.callout-warning}
+I find this approach too heavy-handed, and it doesn't properly address issues arising
+from forks. I authored [a follow-up for this
+post](/posts/website-repo-pr-preview-part-2/index.md), and no longer recommend the method in
+this post.
+:::
 
 ![A bot comment on successful deployment of a PR preview](github-netlify-deploy-comment.png)
 
@@ -38,8 +45,8 @@ My requirements for solving this problem are:
 1. **Free**: Some of my work is on open-source projects that won't ever bring in money.
 2. **Integrates with GitHub**: I'd prefer for GitHub Pages to have full support for this
    out of the box. This is not currently the case
-   ([yet](https://github.com/actions/deploy-pages/blob/main/action.yml#L28-L31)), so I
-   need to compromise.
+   ([yet](https://github.com/actions/deploy-pages/blob/13b55b33dd8996121833dbc1db458c793a334630/action.yml#L28-L31)),
+   so I need to compromise.
 3. **Minimal/no permissions**: If I can't do this in GitHub's ecosystem, I don't want to
    grant any sort of third-party write permissions to my repository.
 
@@ -76,8 +83,8 @@ service for PR previews.
 
 Deploying with the "GitHub Actions" method enables me to deploy the output of my build
 process by uploading it to GitHub as an "artifact". This atomic deployment method makes
-pull request previews more challenging, but GitHub [is working on
-it](https://github.com/actions/deploy-pages/pull/61).
+pull request previews more challenging, but
+[GitHub is working on it](https://github.com/actions/deploy-pages/pull/61).
 
 Here's what a GitHub Actions configuration for this method might look like:
 
