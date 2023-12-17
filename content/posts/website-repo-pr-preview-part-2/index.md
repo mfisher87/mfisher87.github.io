@@ -1,5 +1,9 @@
 ---
 title: "Deploy pull request previews for GitHub Pages repositories (part 2)"
+subtitle: "...just use ReadTheDocs"
+description: |
+  I don't agree with past me; this unplanned follow-up discusses my new recommendation
+  and why I changed my mind.
 date: "2023-12-17"
 categories:
   - "github"
