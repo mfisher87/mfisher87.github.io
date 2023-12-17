@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "Please cite this website using these metadata."
+
+title: "Matt Fisher's personal website"
+# TODO: https://github.com/citation-file-format/citation-file-format/issues/498
+# type: "presentation"
+# doi: "TODO"
+
+contact:
+  - name: "Matt Fisher"
+    email: "mfisher87@gmail.com"
+# TODO: When this issue is resolved, `license` can be a list again:
+#       https://github.com/zenodo/zenodo/issues/2515
+keywords:
+  - "software"
+  - "technology"
+  - "education"
+  - "open science"
+  - "open source"
+  - "Python"
+
+url: "https://mfisher87.github.io"
+repository-code: "https://github.com/mfisher87/mfisher87.github.io"
+
+authors:
+  - family-names: "Fisher"
+    given-names: "Matt"
+    orcid: "https://orcid.org/0000-0003-3260-5445"
+    website: "https://github.com/mfisher87"
