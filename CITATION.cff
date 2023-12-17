@@ -6,6 +6,9 @@ title: "Matt Fisher's personal website"
 # type: "presentation"
 doi: "10.5281/zenodo.10397432"
 
+version: "2023.12.17"
+date-released: "2023-12-17"
+
 contact:
   - name: "Matt Fisher"
     email: "mfisher87@gmail.com"
