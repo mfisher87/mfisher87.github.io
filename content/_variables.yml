@@ -12,3 +12,15 @@ people:
 
 text:
   nsidc-core-contributor: "Core contributor alongside other NSIDC developers."
+
+
+# TODO: Logo URLs. For now (Quarto 1.4.510), using a variable in the `image:`
+# key of a markdown file's front-matter doesn't work, not because the `{{< var
+# ... >}}` directive isn't evaluated, but because it's strangely concatenated
+# to the parent directory of the markdown file.
+#
+# logo-urls:
+#   nsidc: ...
+#   agu: ...
+#   cires: ...
+#   nasa: ...
