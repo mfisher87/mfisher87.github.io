@@ -7,6 +7,8 @@ projects:
     links: "[Snow Today Viewer](https://nsidc.org/snow-today/snow-viewer) [[source](github.com/nsidc/snow-today-webapp)]"
   aross-map:
     links: "[Arctic Rain on Snow Study Observation Map](https://nsidc.org/rain-on-snow) [[source](https://github.com/nsidc/aross-map)]"
+  usaon-benefit-tool:
+    links: "[US AON Benefit Tool](https://www.arcus.org/sipn/sea-ice-outlook/2023/september) [[source](https://github.com/nsidc/usaon-benefit-tool)]"
 
 
 people:
