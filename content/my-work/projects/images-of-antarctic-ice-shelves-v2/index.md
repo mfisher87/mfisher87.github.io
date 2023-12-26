@@ -1,5 +1,5 @@
 ---
-title: "NSIDC Images of Antarctic Ice Shelves v2"
+title: "Images of Antarctic Ice Shelves v2"
 subtitle: "NSIDC-0102v2"
 ---
 

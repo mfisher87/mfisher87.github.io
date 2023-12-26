@@ -1,5 +1,5 @@
 ---
-title: "NSIDC Sea Ice Index"
+title: "Sea Ice Index"
 subtitle: "Changes in Arctic and Antarctic sea ice"
 ---
 
