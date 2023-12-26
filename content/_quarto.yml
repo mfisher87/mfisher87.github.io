@@ -12,8 +12,6 @@ website:
     right:
       - text: "Blog"
         file: "posts/index.md"
-      - text: "Cognitive load"
-        file: "cognitive_load.md"
       - text: "Resume"
         file: "resume.pdf"
       - text: "My work"
@@ -24,6 +22,10 @@ website:
             href: "my-work/talks/index.md"
       - text: "More"
         menu:
+          - text: "Cognitive load"
+            file: "more/cognitive_load.md"
+          - text: "LEDs"
+            file: "more/leds.md"
           - text: "Links"
             file: "more/links.md"
       - icon: "github"
