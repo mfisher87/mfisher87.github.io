@@ -1,9 +1,8 @@
 ---
 title: "QGreenland"
-description: |
-  A free and open-source mapping tool combining interdisciplinary datasets
-  in to an all-in-one GIS analysis and visualization environment for research, teaching,
-  descision-making, and collaboration.
+subtitle: |
+  A free and open-source interdisciplinary scientific data mapping and analysis
+  environment for education and research.
 ---
 
 ![QGreenland with decorative overlays](qgreenland_overview.png)

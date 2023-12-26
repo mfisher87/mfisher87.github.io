@@ -1,6 +1,6 @@
 ---
 title: "NSIDC Sea Ice Index"
-description: "Changes in Arctic and Antarctic sea ice"
+subtitle: "Changes in Arctic and Antarctic sea ice"
 ---
 
 ![A sample data visualization from the Sea Ice Index dataset](sea-ice-concentration.png)

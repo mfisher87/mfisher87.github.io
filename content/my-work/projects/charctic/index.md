@@ -1,6 +1,6 @@
 ---
 title: "Ch<i>arctic</i>"
-description: "Interactive Arctic and Antarctic sea ice chart"
+subtitle: "Interactive Arctic and Antarctic sea ice chart"
 ---
 
 ![A screenshot of Ch<i>arctic</i>](charctic.png)
