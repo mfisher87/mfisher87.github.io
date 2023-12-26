@@ -9,3 +9,5 @@ An interactive tool for viewing and comparing mapped raster data and plotted sca
 data about global snow events occurring today.
 
 {{< var projects.snow-today.links >}}
+
+{{< var text.lead-dev >}}
