@@ -28,6 +28,8 @@ website:
             file: "more/cognitive_load.md"
           - text: "LEDs"
             file: "more/leds.md"
+          - text: "Communities"
+            file: "more/communities.md"
           - text: "My other sites"
             file: "more/internal_links.md"
           - text: "External links / blogroll"
