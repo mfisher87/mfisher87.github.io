@@ -60,17 +60,17 @@ I'm not happy with this. If you see ways to improve it, I'd love to hear from yo
 issue or PR!
 
 
-## :magnifying_glass: Findability
+## :mag: Findability
 
 ReadTheDocs PR previews are well-hidden within GitHub's "Checks" interface.
 
-![All checks have passed -- no indication there's a PR preview inside](/assets/github-all-checks-have-passed.png)
+![All checks have passed -- no indication there's a PR preview inside](github-all-checks-have-passed.png)
 
 To improve findability of PR previews for users who are less familiar with this
 behavior, I recommend using [ReadTheDocs' official action for making preview links more
 findable](https://github.com/readthedocs/actions/tree/v1/preview).
 
-![PR preview link is automatically added to PR description](/assets/github-rtd-pr-preview-in-description.png)
+![PR preview link is automatically added to PR description](github-rtd-pr-preview-in-description.png)
 
 
 ## :thinking: Why? {#sec-why}
