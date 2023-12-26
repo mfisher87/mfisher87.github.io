@@ -8,10 +8,7 @@ description: |
 
 ![QGreenland with decorative overlays](qgreenland_overview.png)
 
-[QGreenland](https://qgreenland.org)
-|
-[source code](https://github.com/nsidc/qgreenland)
+{{< var projects.qgreenland.links >}}
 
-Development was led jointly by myself and
-[Trey Stafford](https://github.com/trey-stafford).
-PI [Twila Moon](https://nsidc.org/about/about-nsidc/what-we-do/our-people/twila_moon).
+Development was led jointly by myself and {{< var people.trey-stafford >}}.
+PI {{< var people.twila-moon >}}.
