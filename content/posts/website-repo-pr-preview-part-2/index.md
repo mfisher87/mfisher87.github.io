@@ -40,7 +40,7 @@ In [Part 1 of this series](/posts/website-repo-pr-preview/index.md), I discussed
 we must look outside of GitHub Pages to solve this problem (when
 [deploying as an artifact](https://github.com/orgs/community/discussions/30113#discussioncomment-7650234)).
 ReadTheDocs, when used _only_ for PR previews, requires significantly less
-[cognitive load](/cognitive_load.md)
+[cognitive load](/more/cognitive_load.md)
 to use and maintain than the Netlify alternative I suggested in Part 1. Minimizing
 cognitive load is very important to me; more on that in the ["Why?" section](#sec-why).
 
@@ -88,7 +88,7 @@ and our secrets at the same time.
 
 However, this method of restriction, and its implications, is a lot to remember.
 Therefore, the mechanisms we use as workarounds are going to require high [cognitive
-load](/cognitive_load.md). For example, to work around a `pull_request_target` event
+load](/more/cognitive_load.md). For example, to work around a `pull_request_target` event
 having no access to secrets (which are required to push to Netlify), one option is to
 use GHA to respond to `issue_comment` events. and if the comment is authored by a
 maintainer and contains the magic string `Please generate a PR preview`, then generate

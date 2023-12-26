@@ -1,0 +1,33 @@
+projects:
+  qgreenland:
+    links: "[QGreenland](https://qgreenland.org) [[source](https://github.com/nsidc/qgreenland)]"
+  qgreenland-workshop-2023:
+    links: "[QGreenland Researcher Workshop 2023](https://qgreenland-workshop-2023-researcher.github.io/) [[source](https://github.com/qgreenland-workshop-2023-researcher/qgreenland-workshop-2023-researcher.github.io)]"
+  snow-today:
+    links: "[Snow Today Viewer](https://nsidc.org/snow-today/snow-viewer) [[source](github.com/nsidc/snow-today-webapp)]"
+  aross-map:
+    links: "[Arctic Rain on Snow Study Observation Map](https://nsidc.org/rain-on-snow) [[source](https://github.com/nsidc/aross-map)]"
+  usaon-benefit-tool:
+    links: "[US AON Benefit Tool](https://www.arcus.org/sipn/sea-ice-outlook/2023/september) [[source](https://github.com/nsidc/usaon-benefit-tool)]"
+
+
+people:
+  trey-stafford: "[Trey Stafford](https://github.com/trey-stafford)"
+  twila-moon: "[Twila Moon](https://nsidc.org/about/about-nsidc/what-we-do/our-people/twila_moon)"
+
+
+text:
+  nsidc-core-contributor: "Core contributor alongside other NSIDC developers."
+  lead-dev: "I was the lead developer for this project."
+
+
+# TODO: Logo URLs. For now (Quarto 1.4.510), using a variable in the `image:`
+# key of a markdown file's front-matter doesn't work, not because the `{{< var
+# ... >}}` directive isn't evaluated, but because it's strangely concatenated
+# to the parent directory of the markdown file.
+#
+# logo-urls:
+#   nsidc: ...
+#   agu: ...
+#   cires: ...
+#   nasa: ...
