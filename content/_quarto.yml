@@ -20,6 +20,8 @@ website:
             href: "my-work/projects/index.md"
           - text: "Talks"
             href: "my-work/talks/index.md"
+          - text: "Awards"
+            href: "my-work/awards/index.md"
       - text: "More"
         menu:
           - text: "Cognitive load"
