@@ -36,7 +36,7 @@ Maybe your site isn't a docs site. That's OK. Publish your production site from 
 main branch to GitHub Pages with GitHub Actions if you feel that way! ReadTheDocs can
 still provide convenient PR previews in that case.
 
-In [Part 1 of this series](/posts/website-repo-pr-previews/index.md), I discussed why
+In [Part 1 of this series](/posts/website-repo-pr-preview/index.md), I discussed why
 we must look outside of GitHub Pages to solve this problem (when
 [deploying as an artifact](https://github.com/orgs/community/discussions/30113#discussioncomment-7650234)).
 ReadTheDocs, when used _only_ for PR previews, requires significantly less
@@ -58,6 +58,19 @@ and finally resigned to installing from a release tarball, and that's what you s
 
 I'm not happy with this. If you see ways to improve it, I'd love to hear from you in an
 issue or PR!
+
+
+## :magnifying_glass: Findability
+
+ReadTheDocs PR previews are well-hidden within GitHub's "Checks" interface.
+
+![All checks have passed -- no indication there's a PR preview inside](/assets/github-all-checks-have-passed.png)
+
+To improve findability of PR previews for users who are less familiar with this
+behavior, I recommend using [ReadTheDocs' official action for making preview links more
+findable](https://github.com/readthedocs/actions/tree/v1/preview).
+
+![PR preview link is automatically added to PR description](/assets/github-rtd-pr-preview-in-description.png)
 
 
 ## :thinking: Why? {#sec-why}
