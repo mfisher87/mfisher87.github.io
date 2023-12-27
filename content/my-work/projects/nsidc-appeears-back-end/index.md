@@ -2,6 +2,9 @@
 title: "NSIDC AppEEARS back-end"
 subtitle: "A Hyrax OPeNDAP deployment"
 image: "https://nsidc.org/themes/custom/nsidc/logo.svg"
+categories:
+  - "infrastructure"
+  - "data-service"
 ---
 
 [AppEEARS](https://appeears.earthdatacloud.nasa.gov/) is a NASA API for accessing and

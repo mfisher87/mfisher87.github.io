@@ -2,6 +2,9 @@
 title: "Sea Ice Service"
 subtitle: "An API to NSIDC Sea Ice Index data"
 image: "https://nsidc.org/themes/custom/nsidc/logo.svg"
+categories:
+  - "data-service"
+  - "python"
 ---
 
 An

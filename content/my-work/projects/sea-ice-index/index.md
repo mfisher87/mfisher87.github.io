@@ -1,6 +1,10 @@
 ---
 title: "Sea Ice Index"
 subtitle: "Changes in Arctic and Antarctic sea ice"
+categories:
+  - "data-production"
+  - "dataviz"
+  - "python"
 ---
 
 ![A sample data visualization from the Sea Ice Index dataset](sea-ice-concentration.png)

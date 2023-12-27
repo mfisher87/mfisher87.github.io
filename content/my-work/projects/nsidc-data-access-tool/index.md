@@ -1,9 +1,17 @@
 ---
 title: "NSIDC Data Access Tool"
 subtitle: "3D visualizer and asynchronous ordering tool"
+categories:
+  - "dataviz"
+  - "data-service"
+  - "typescript"
+  - "python"
 ---
 
 ![NSIDC Data Access Tool](nsidc-data-access-tool.png)
+
+A comprehensive data visualization and ordering system built to ease bulk access to
+NASA Earth science data.
 
 [Demo](https://nsidc.org/data/data-access-tool/NSIDC-0051/versions/2)
 

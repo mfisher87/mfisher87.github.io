@@ -3,6 +3,12 @@ title: "QGreenland"
 subtitle: |
   A free and open-source interdisciplinary scientific data mapping and analysis
   environment for education and research.
+categories:
+  - "dataviz"
+  - "data-production"
+  - "education"
+  - "python"
+  - "open-source"
 ---
 
 ![QGreenland with decorative overlays](qgreenland_overview.png)

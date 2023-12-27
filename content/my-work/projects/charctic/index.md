@@ -1,6 +1,9 @@
 ---
 title: "Ch<i>arctic</i>"
 subtitle: "Interactive Arctic and Antarctic sea ice chart"
+categories:
+  - "dataviz"
+  - "typescript"
 ---
 
 ![A screenshot of Ch<i>arctic</i>](charctic.png)
