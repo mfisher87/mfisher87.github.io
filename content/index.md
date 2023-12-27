@@ -5,11 +5,8 @@ about:
   template: "trestles"
   links:
     - icon: "github"
-      text: "Personal Github"
+      text: "Github"
       href: "https://github.com/mfisher87"
-    - icon: "github"
-      text: "Work Github"
-      href: "https://github.com/MattF-NSIDC"
     - icon: "at"
       text: "ORCID"
       href: "https://orcid.org/0000-0003-3260-5445"
