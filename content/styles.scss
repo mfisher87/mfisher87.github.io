@@ -21,3 +21,15 @@ details :last-child {
 figcaption {
   font-style: italic;
 }
+
+/* When using Bootstrap block-style buttons (with <a> tag only), Quarto wraps
+ * with a <p> tag that screws everything up.
+ */
+.blockfix p {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  flex-direction: column;
+}
