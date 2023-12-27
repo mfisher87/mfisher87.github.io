@@ -11,3 +11,5 @@ categories:
 ![A graphic example of a value tree analysis (VTA)](VTA-graphic.jpg)
 
 {{< var projects.usaon-benefit-tool.links >}}
+
+{{< var text.lead-dev >}}

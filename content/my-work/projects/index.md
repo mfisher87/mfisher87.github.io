@@ -10,5 +10,5 @@ listing:
   categories: true
 ---
 
-In these projects, I was at minimum a core contributor. Select a project to learn more
-about the project and my role.
+In these projects, I was at least a **core contributor**. Select a project to learn
+more about the project and my role.
