@@ -1,7 +1,12 @@
 ---
 title: "QGreenland 2023 workshop"
 subtitle: |
-  3-day open source open science technical training for researchers of all career levels.
+  3-day open source open science technical training for researchers of all career
+  levels.
+categories:
+  - "education"
+  - "quarto"
+  - "open-source"
 ---
 
 ![Example slide from QGreenland Researcher Workshop 2023](qgreenland-researcher-workshop-example-slide.png)

@@ -1,6 +1,10 @@
 ---
 title: "Sea Ice Outlook Surveys &amp; Plots"
 subtitle: "Gathering and visualizing data about expert sea ice extent predictions"
+categories:
+  - "data-production"
+  - "dataviz"
+  - "python"
 ---
 
 ![Responses to the September 2023 Sea Ice Outlook survey](sio2023_pan-arctic_by-contributor.png)

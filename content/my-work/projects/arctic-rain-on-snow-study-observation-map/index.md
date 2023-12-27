@@ -1,6 +1,10 @@
 ---
 title: "Arctic Rain on Snow Study (AROSS) Observation Map"
 subtitle: "A map of local knowledge (human observations) of rain-on-snow events"
+categories:
+  - "dataviz"
+  - "typescript"
+  - "open-source"
 ---
 
 ![AROSS Observation Map screenshot](aross-observation-map.png)

@@ -1,6 +1,9 @@
 ---
 title: "Images of Antarctic Ice Shelves v2"
 subtitle: "NSIDC-0102v2"
+categories:
+  - "data-production"
+  - "python"
 ---
 
 ![Reduced-size MODIS image of Bryan Coast, 2017-06-24. NSIDC-0102](br_bryan_2017205_2010_modis_ch32.png)
