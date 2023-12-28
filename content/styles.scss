@@ -22,6 +22,10 @@ figcaption {
   font-style: italic;
 }
 
+.card-title {
+  font-weight: bold;
+}
+
 /* When using Bootstrap block-style buttons (with <a> tag only), Quarto wraps
  * with a <p> tag that screws everything up.
  */

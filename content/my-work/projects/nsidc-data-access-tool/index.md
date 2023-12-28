@@ -4,6 +4,7 @@ subtitle: "3D visualizer and asynchronous ordering tool"
 categories:
   - "dataviz"
   - "data-service"
+  - "data-access"
   - "typescript"
   - "python"
 ---

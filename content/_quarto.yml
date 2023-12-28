@@ -22,6 +22,8 @@ website:
             href: "my-work/talks/index.md"
           - text: "Awards"
             href: "my-work/awards/index.md"
+          - text: "Maintenance"
+            href: "my-work/maintenance/index.md"
       - text: "More"
         menu:
           - text: "Cognitive load"
