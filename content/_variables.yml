@@ -9,6 +9,15 @@ projects:
     links: "[Arctic Rain on Snow Study Observation Map](https://nsidc.org/rain-on-snow) [[source](https://github.com/nsidc/aross-map)]"
   usaon-benefit-tool:
     links: "[US AON Benefit Tool](https://www.arcus.org/sipn/sea-ice-outlook/2023/september) [[source](https://github.com/nsidc/usaon-benefit-tool)]"
+  viscm:
+    links: "[viscm](https://github.com/matplotlib/viscm)"
+    description: "A tool for analyzing colormaps and creating new colormaps."
+  earthaccess:
+    links: "[earthaccess](earthaccess.readthedocs.io/) [[source](https://github.com/nsidc/earthaccess)]"
+    description: "A Python library which abstracts away the complexities of searching, downloading, or streaming NASA Earth science data."
+  quarto:
+    links: "[Quarto](https://quarto.org/) [[source](https://github.com/quarto-dev/quarto-cli)]"
+    description: "An open-source scientific and technical publishing system."
 
 
 people:
