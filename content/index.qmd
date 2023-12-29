@@ -15,8 +15,24 @@ about:
       href: "mailto:mfisher87@gmail.com"
 ---
 
-I am a Research Associate (Software Developer) at
+<!-- TODO: Update this code when Quarto 1.4 is released:
+  https://github.com/quarto-dev/quarto-cli/pull/6190
+-->
+```{python}
+#| echo: false
+from IPython.display import display, Markdown
+import datetime
+
+this_year = datetime.date.today().year
+years = this_year - 2008
+display(Markdown(
+  f"I am a software developer with {years} years of experience."
+))
+```
+
+I am currently employed as a Research Associate (Software Developer) at
 [National Snow and Ice Data Center](https://nsidc.org).
+
 
 ### My passions include...
 
