@@ -3,6 +3,11 @@
 - Use Carpentries re-usable text for instructors? https://github.com/carpentries/commons/blob/main/text-for-instructors.md
 
 
+## Automation
+
+Update auto-release process to include generating release notes from PRs
+
+
 ## Details about interests
 
 I used to have (a superset of) this text on the home page. It's less detailed now.
