@@ -4,6 +4,7 @@ listing:
   type: "table"
   fields: ["title"]
   contents:
-    - "./*.md"
-    - "./*/index.md"
+    - "*.md"
+    - "*/index.md"
+comments: false
 ---

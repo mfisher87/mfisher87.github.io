@@ -16,5 +16,5 @@ push = false
 ]
 "CITATION.cff" = [
     'version: "{version}"$',
-    'date-released: "YYYY-MM-DD"'
+    'date-released: "YYYY-0M-0D"'
 ]

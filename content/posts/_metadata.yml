@@ -14,3 +14,24 @@ freeze: true
 
 # Enable banner style title blocks
 title-block-banner: true
+
+
+# Enable comments on blog posts
+# TODO: This config is duplicated a lot of places, how to DRY?
+comments:
+  giscus:
+    repo: "mfisher87/mfisher87.github.io"
+    repo-id: "R_kgDOIyvIJQ"
+    category: "Blog posts"
+    category-id: "DIC_kwDOIyvIJc4CZ8qh"
+    mapping: "pathname"
+    reactions-enabled: true
+    input-position: "top"
+    # TODO: In Quarto 1.4, light/dark themes are supported
+    # https://github.com/quarto-dev/quarto-cli/issues/4820
+    # theme:
+    #   light: "preferred_color_scheme"
+    #   dark: "noborder_dark"
+    theme: "light"
+    language: "en"
+    loading: "lazy"
