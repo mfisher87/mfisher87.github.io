@@ -1,5 +1,6 @@
 ---
 title: "Matt Fisher"
+subtitle: "Pronouns: he"
 image: "assets/janie_pfp.png"
 about:
   template: "trestles"
