@@ -15,6 +15,12 @@ I used to have (a superset of) this text on the home page. It's less detailed no
 * DIY electronics and repair
 
 
+## Details about skills
+
+Right now, there's no place for this, just for experience. "Skills" doesn't fit very
+well in "My work", so is there another way we can rename that category so it does fit?
+
+
 ## My work
 
 * Create maintenance page
