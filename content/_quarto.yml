@@ -55,3 +55,4 @@ format:
       dark: ["darkly", "styles.scss"]
     # Turn on emoji shortcodes:
     from: "markdown+emoji"
+    toc: true

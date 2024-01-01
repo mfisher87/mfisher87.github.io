@@ -13,6 +13,9 @@ about:
     - icon: "envelope"
       text: "E-mail"
       href: "mailto:mfisher87@gmail.com"
+format:
+  html:
+    toc: false
 ---
 
 <!-- TODO: Update this code when Quarto 1.4 is released:
