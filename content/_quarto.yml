@@ -75,6 +75,6 @@ comments:
     # theme:
     #   light: "preferred_color_scheme"
     #   dark: "noborder_dark"
-    theme: "preferred_color_scheme"
+    theme: "light"
     language: "en"
     loading: "lazy"
