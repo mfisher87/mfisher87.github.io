@@ -12,4 +12,5 @@ title-block-banner: true
 # Prevent the _metadata.yml settings intended only for posts
 author: ""
 citation: false
+comments: false
 ---
