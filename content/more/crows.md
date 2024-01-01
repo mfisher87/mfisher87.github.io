@@ -14,6 +14,13 @@ work OK.
 We purchased some spicy suet for birds (birds can't taste capsaicin, but mammals like
 squirrels can), but haven't encountered any crows in the neighborhood since then.
 
+:::{.callout-important}
+Crows are scavengers and eat lots of stuff, but it's important to provide healthy food.
+Do not give crows salted food, like salted peanuts. Don't give them bread.
+
+Suet is a great high-energy food for winter.
+:::
+
 
 ## Locations
 
@@ -40,3 +47,20 @@ food, but react fearfully to movement.
 Talking to them (e.g. gentle coaxing like a dog or cat) seems to be surprisingly
 effective at making them more comfortable with getting morsels of food that are closer
 to us.
+
+
+## Misc
+
+### Crows vs. Ravens
+
+Ravens and crows look very similar but can be differentiated with a few features:
+
+* **Tailfeathers**: Crows' tailfeathers will form a flat trailing edge, resembling a
+  triangle pointing towards the front of the bird. Ravens' tailfeathers come to a point
+  (often called "wedge", but to me more resembles a "diamond") at the trailing edge.
+* **Size**: Ravens are much bigger. Crows are closer to the size of a woodpecker, and ravens
+  are closer to the size of an adult housecat.
+* **Call**: Crow calls are more of a clear "caw" sound, and ravens are more of a
+  vocal-fry "croak" sound. Ravens have greater vocal range, and can even mimic human
+  speech.
+* **Location**: I've never seen ravens in my neighborhood, but I see them often in Boulder.
