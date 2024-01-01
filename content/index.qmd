@@ -1,5 +1,6 @@
 ---
 title: "Matt Fisher"
+subtitle: "Pronouns: he"
 image: "assets/janie_pfp.png"
 about:
   template: "trestles"
@@ -13,6 +14,9 @@ about:
     - icon: "envelope"
       text: "E-mail"
       href: "mailto:mfisher87@gmail.com"
+format:
+  html:
+    toc: false
 ---
 
 <!-- TODO: Update this code when Quarto 1.4 is released:
@@ -26,18 +30,18 @@ import datetime
 this_year = datetime.date.today().year
 years = this_year - 2008
 display(Markdown(
-  f"I am a software developer with {years} years of experience."
+  f"I am a software developer with **{years} years of experience**."
 ))
 ```
 
 I am currently employed as a Research Associate (Software Developer) at
-[National Snow and Ice Data Center](https://nsidc.org).
+[National Snow and Ice Data Center (NSIDC)](https://nsidc.org).
 
 
 ### My passions include...
 
-* **Community-owned software**
 * **Open Science, accessibility, and inclusion**
+* **Community-owned software**
 * **Education** (certified Carpentries instructor)
 * **Tools for researchers and educators**
 * **Geospatial science data**: production, ingestion, services, and visualization
