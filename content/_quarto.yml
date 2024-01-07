@@ -35,6 +35,8 @@ website:
           - text: "External links / blogroll"
             file: "more/external_links.md"
           - text: "---"
+          - text: "2024 garden"
+            file: "more/garden/2024.md"
           - text: "Crows"
             file: "more/crows.md"
           - text: "LEDs"
