@@ -18,6 +18,8 @@ website:
         menu:
           - text: "Projects"
             href: "my-work/projects/index.md"
+          - text: "Other roles"
+            href: "my-work/other-roles/index.md"
           - text: "Talks"
             href: "my-work/talks/index.md"
           - text: "Awards"
