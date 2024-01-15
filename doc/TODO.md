@@ -1,16 +1,11 @@
 # TODO
 
-- Use Carpentries re-usable text for instructors? https://github.com/carpentries/commons/blob/main/text-for-instructors.md
-
-
-## Automation
-
-Update auto-release process to include generating release notes from PRs
 
 
 ## Details about interests
 
-I used to have (a superset of) this text on the home page. It's less detailed now.
+I used to have (a superset of) this text on the home page. It's less detailed now. Add
+some page that expounds on the interests list?
 
 * Open Science and open-source software; teaching scientists how to use Git
 * Data visualization quality (e.g. appropriate and accessible colormaps)
@@ -28,8 +23,9 @@ well in "My work", so is there another way we can rename that category so it doe
 
 ## My work
 
-* Create maintenance page
-    * Earthaccess: maintenance and/or core contributor?
+### Maintenance page
+
+* Earthaccess: maintenance and/or core contributor?
 
 
 ## ORCiD page updates

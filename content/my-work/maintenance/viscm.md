@@ -6,6 +6,7 @@ categories:
   - "dataviz"
   - "python"
   - "open-source"
+  - "accessibility"
 ---
 
 My role on this project was to restore it to working order. I feel strongly that quality

@@ -30,7 +30,9 @@ website:
         menu:
           - text: "Cognitive load"
             file: "cognitive_load.md"
-          - text: "Communities"
+          - text: "My learning objectives"
+            file: "learning_objectives.md"
+          - text: "My communities"
             file: "communities.md"
           - text: "My other sites"
             file: "internal_links.md"
