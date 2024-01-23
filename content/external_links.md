@@ -11,6 +11,11 @@ description: |
   zines, comics
 
 
+## Neurodivergence
+
+* [20 Things I've Learned as a Systems (Over)Thinker](https://cutlefish.substack.com/p/20-things-ive-learned-as-a-systems)
+
+
 ## Organizational development
 
 * [Peggy Holman's blog](https://peggyholman.medium.com/): Engaging emergence for
