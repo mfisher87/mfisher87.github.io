@@ -11,6 +11,16 @@ description: |
   zines, comics
 
 
+## Neurodivergence
+
+* [20 Things I've Learned as a Systems (Over)Thinker](https://cutlefish.substack.com/p/20-things-ive-learned-as-a-systems)
+
+
+## Career advice
+
+* [Telling your own stories in career transitions](https://www.drcathicks.com/post/telling-your-own-stories-in-career-transitions)
+
+
 ## Organizational development
 
 * [Peggy Holman's blog](https://peggyholman.medium.com/): Engaging emergence for
