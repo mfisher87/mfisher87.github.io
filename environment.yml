@@ -1,9 +1,9 @@
-name: mfisher-homepage
+name: "mfisher87.github.io"
 channels:
-  - conda-forge
-  - nodefaults
+  - "conda-forge"
+  - "nodefaults"
 platforms:
-  - linux-64
+  - "linux-64"
 dependencies:
   - python ~=3.11.0
 
