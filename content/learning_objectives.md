@@ -57,7 +57,7 @@ If you are interested in a mentoring, teaching, or learning relationship with me
       therefore more able to support and lead researchers in transitioning to open
       science work modalities.
     - I become a
-      [Certified Carpentries Instructor](http://localhost:3469/my-work/other-roles/carpentries-instructor.html)
+      [Certified Carpentries Instructor](/my-work/other-roles/carpentries-instructor.html)
       in 2023.
-    - I co-developed and administrated the [QGreenland 2023 Researcher
-      Workshop](http://localhost:3469/my-work/projects/qgreenland-workshops/) in 2023.
+    - I co-developed and administrated the
+      [QGreenland 2023 Researcher Workshop](/my-work/projects/qgreenland-workshops/) in 2023.
