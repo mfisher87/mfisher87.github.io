@@ -44,19 +44,20 @@ If you are interested in a mentoring, teaching, or learning relationship with me
 
 ## :student: Successfully started learning!
 
-- [x] [HTMX](https://htmx.org/)
+- [x] [HTMX](https://htmx.org/) - 2024
     - I feel this will help me write more usable user interfaces faster and with
-      significantly less maintenance burden. As I learned to apply HTMX I found that
-      applying HATEOAS principles made it easier to build a truly "RESTful" API; without
-      a need to design, send, and parse data about available actions for resources or
-      collections (instead, just send functional buttons in HTML fragments!), the burden
-      of developing under REST is much lower.
-- [x] Organizational development
+      significantly less maintenance burden.
+    - As I learned to apply HTMX I found that applying HATEOAS principles made it easier
+      to build a truly "RESTful" API; without a need to design, send, and parse data
+      about available actions for resources or collections (instead, just send
+      functional buttons in HTML fragments!), the burden of developing under REST is
+      much lower.
+- [x] Organizational development - 2023
     - I feel this will help me be an effective advocate for change, especially in
       inclusiveness and openness.
     - Reading [_Engaging Emergence_](https://peggyholman.com/papers/engaging-emergence/)
       by [Peggy Holman](https://peggyholman.com/)
-- [x] Pedagogy / Andragogy
+- [x] Pedagogy / Andragogy - 2023
     - I feel this will help me become a more effective teacher and learner, and
       therefore more able to support and lead researchers in transitioning to open
       science work modalities.
