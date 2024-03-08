@@ -1,5 +1,5 @@
 ---
-title: "My projects"
+title: "Projects"
 listing:
   type: "grid"
   fields:

@@ -18,7 +18,7 @@ Conda, and in any case, my issue is remembering the name, not typing too much! B
 the end of this post, I'll get us down to three-keystroke environment activation.
 
 It took me 8 years, but today I realized this is a
-[cognitive load](/more/cognitive_load.md) problem that I can solve relatively easily.
+[cognitive load](/cognitive_load.md) problem that I can solve relatively easily.
 
 From now on, I will always name my Conda environments after the Git repo root directory
 (this should match the GitHub repository name). With the exception of projects with

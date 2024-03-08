@@ -1,5 +1,5 @@
 ---
-title: "My maintenance work"
+title: "Maintenance"
 listing:
   type: "grid"
   fields:

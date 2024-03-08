@@ -9,23 +9,30 @@ website:
   repo-actions: ["edit", "issue"]
 
   navbar:
-    right:
+    left:
+      - text: "About"
+        # file: "about/index.md"
+        menu:
+          - text: "About me"
+            file: "about/index.md"
+          - text: "My projects"
+            href: "about/my-work/projects/index.md"
+          - text: "My other roles"
+            href: "about/my-work/other-roles/index.md"
+          - text: "My talks"
+            href: "about/my-work/talks/index.md"
+          - text: "My awards"
+            href: "about/my-work/awards/index.md"
+          - text: "My maintenance work"
+            href: "about/my-work/maintenance/index.md"
+
+      - text: "Résumé"
+        file: "resume.pdf"
+        target: "_blank"
+
       - text: "Blog"
         file: "posts/index.md"
-      - text: "Resume"
-        file: "resume.pdf"
-      - text: "My work"
-        menu:
-          - text: "Projects"
-            href: "my-work/projects/index.md"
-          - text: "Other roles"
-            href: "my-work/other-roles/index.md"
-          - text: "Talks"
-            href: "my-work/talks/index.md"
-          - text: "Awards"
-            href: "my-work/awards/index.md"
-          - text: "Maintenance"
-            href: "my-work/maintenance/index.md"
+
       - text: "More"
         menu:
           - text: "Cognitive load"
@@ -45,9 +52,24 @@ website:
             file: "crows.md"
           - text: "LEDs"
             file: "leds.md"
+
+    right:
       - icon: "github"
         aria-label: "GitHub"
         href: "https://github.com/mfisher87"
+
+
+  sidebar:
+    - title: "About"
+      style: "docked"
+      contents:
+        - "about/index.md"
+        - "about/my-work/projects/index.md"
+        - "about/my-work/other-roles/index.md"
+        - "about/my-work/talks/index.md"
+        - "about/my-work/awards/index.md"
+        - "about/my-work/maintenance/index.md"
+
 
   page-footer:
     left: "© Matt Fisher 2023"
@@ -63,6 +85,7 @@ format:
     from: "markdown+emoji"
 
     toc: true
+
 
 # Enable comments by default
 # IMPORTANT: Set `comments: false` on pages like indexes!

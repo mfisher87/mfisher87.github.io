@@ -1,10 +1,9 @@
 ---
-title: "My awards"
+title: "Talks"
 listing:
   type: "grid"
   fields:
     - "title"
-    - "subtitle"
     - "date"
     - "image"
 ---
