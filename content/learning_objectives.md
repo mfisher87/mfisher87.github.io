@@ -14,9 +14,6 @@ If you are interested in a mentoring, teaching, or learning relationship with me
 
 ## :sparkles: Have never used/practiced
 
-- [ ] [HTMX](https://htmx.org/)
-    - I feel this will help me write more usable user interfaces faster and with
-      significantly less maintenance burden.
 - [ ] [Nix/NixOS](https://nixos.org/)
     - I feel this will help me build reproducible computing environments, and could
       revolutionize the way I interact with computers day-to-day.
@@ -47,6 +44,13 @@ If you are interested in a mentoring, teaching, or learning relationship with me
 
 ## :student: Successfully started learning!
 
+- [x] [HTMX](https://htmx.org/)
+    - I feel this will help me write more usable user interfaces faster and with
+      significantly less maintenance burden. As I learned to apply HTMX I found that
+      applying HATEOAS principles made it easier to build a truly "RESTful" API; without
+      a need to design, send, and parse data about available actions for resources or
+      collections (instead, just send functional buttons in HTML fragments!), the burden
+      of developing under REST is much lower.
 - [x] Organizational development
     - I feel this will help me be an effective advocate for change, especially in
       inclusiveness and openness.
