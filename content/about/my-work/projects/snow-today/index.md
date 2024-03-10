@@ -1,6 +1,8 @@
 ---
 title: "Snow Today Viewer"
 subtitle: "An interactive viewer for recent snow events"
+# TODO: Migrate dates to _variables.yml, that doesn't seem to currently be supported.
+date: "2024-03-06"
 categories:
   - "dataviz"
   - "typescript"

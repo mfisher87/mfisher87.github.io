@@ -1,6 +1,8 @@
 ---
 title: "Sea Ice Index"
 subtitle: "Changes in Arctic and Antarctic sea ice"
+# TODO: Migrate dates to _variables.yml, that doesn't seem to currently be supported.
+date: "2023-03-23"
 categories:
   - "data-production"
   - "dataviz"

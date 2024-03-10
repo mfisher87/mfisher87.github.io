@@ -1,6 +1,8 @@
 ---
 title: "NSIDC Map Services"
 subtitle: "Standards-based data services for NSIDC data"
+# TODO: Migrate dates to _variables.yml, that doesn't seem to currently be supported.
+date: "2019-12-19"
 image: "https://nsidc.org/themes/custom/nsidc/logo.svg"
 categories:
   - "infrastructure"

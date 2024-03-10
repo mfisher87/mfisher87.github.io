@@ -1,6 +1,8 @@
 ---
 title: "Images of Antarctic Ice Shelves v2"
 subtitle: "NSIDC-0102v2"
+# TODO: Migrate dates to _variables.yml, that doesn't seem to currently be supported.
+date: "2022-06-16"
 categories:
   - "data-production"
   - "python"

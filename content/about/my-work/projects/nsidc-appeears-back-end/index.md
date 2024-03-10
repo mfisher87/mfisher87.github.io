@@ -1,6 +1,8 @@
 ---
 title: "NSIDC AppEEARS back-end"
 subtitle: "A Hyrax OPeNDAP deployment"
+# TODO: Migrate dates to _variables.yml, that doesn't seem to currently be supported.
+date: "2024-01-25"
 image: "https://nsidc.org/themes/custom/nsidc/logo.svg"
 categories:
   - "infrastructure"

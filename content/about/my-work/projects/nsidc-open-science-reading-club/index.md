@@ -1,6 +1,8 @@
 ---
 title: "NSIDC Open Science Reading Club"
 subtitle: "{{< var projects.nsidc-open-science-reading-club.description >}}"
+# TODO: Migrate dates to _variables.yml, that doesn't seem to currently be supported.
+date: "2024-02-01"
 categories:
   - "open-science"
   - "community"

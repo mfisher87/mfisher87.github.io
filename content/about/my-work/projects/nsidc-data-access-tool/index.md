@@ -1,6 +1,8 @@
 ---
 title: "NSIDC Data Access Tool"
 subtitle: "3D visualizer and asynchronous ordering tool"
+# TODO: Migrate dates to _variables.yml, that doesn't seem to currently be supported.
+date: "2020-06-17"
 categories:
   - "dataviz"
   - "data-service"

@@ -1,6 +1,8 @@
 ---
 title: "Sea Ice Outlook Surveys &amp; Plots"
 subtitle: "Gathering and visualizing data about expert sea ice extent predictions"
+# TODO: Migrate dates to _variables.yml, that doesn't seem to currently be supported.
+date: "2023-06-05"
 categories:
   - "data-production"
   - "dataviz"
