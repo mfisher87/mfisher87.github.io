@@ -8,8 +8,8 @@ listing:
   sort-ui: false
   filter-ui: false
 page-layout: full
-title-block-banner: true
 # Prevent the _metadata.yml settings intended only for posts
+title-block-banner: false
 author: ""
 citation: false
 comments: false

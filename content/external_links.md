@@ -9,9 +9,15 @@ description: |
 
 * [Julia Evans' blog](https://jvns.ca/): Programming, learning "hard" things, writing,
   zines, comics
+* [ARCHITECTURE.md](https://matklad.github.io/2021/02/06/ARCHITECTURE.md.html)
 
 
-## Neurodivergence
+## Psychology
+
+* [Please Don’t Fake It Till You Make It: On the Need for Confidence, Honesty, & Integrity in Software Development](https://www.kristen-foster-marks.com/post/on-the-need-for-confidence-honesty-integrity-in-software-development)
+
+
+### Neurodivergence
 
 * [20 Things I've Learned as a Systems (Over)Thinker](https://cutlefish.substack.com/p/20-things-ive-learned-as-a-systems)
 

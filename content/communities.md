@@ -1,5 +1,6 @@
 ---
 title: "Communities"
+comments: false
 ---
 
 I'm a member of these communities. You can likely find me on the

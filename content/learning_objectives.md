@@ -14,9 +14,6 @@ If you are interested in a mentoring, teaching, or learning relationship with me
 
 ## :sparkles: Have never used/practiced
 
-- [ ] [HTMX](https://htmx.org/)
-    - I feel this will help me write more usable user interfaces faster and with
-      significantly less maintenance burden.
 - [ ] [Nix/NixOS](https://nixos.org/)
     - I feel this will help me build reproducible computing environments, and could
       revolutionize the way I interact with computers day-to-day.
@@ -47,17 +44,25 @@ If you are interested in a mentoring, teaching, or learning relationship with me
 
 ## :student: Successfully started learning!
 
-- [x] Organizational development
+- [x] [HTMX](https://htmx.org/) - 2024
+    - I feel this will help me write more usable user interfaces faster and with
+      significantly less maintenance burden.
+    - As I learned to apply HTMX I found that applying HATEOAS principles made it easier
+      to build a truly "RESTful" API; without a need to design, send, and parse data
+      about available actions for resources or collections (instead, just send
+      functional buttons in HTML fragments!), the burden of developing under REST is
+      much lower.
+- [x] Organizational development - 2023
     - I feel this will help me be an effective advocate for change, especially in
       inclusiveness and openness.
     - Reading [_Engaging Emergence_](https://peggyholman.com/papers/engaging-emergence/)
       by [Peggy Holman](https://peggyholman.com/)
-- [x] Pedagogy / Andragogy
+- [x] Pedagogy / Andragogy - 2023
     - I feel this will help me become a more effective teacher and learner, and
       therefore more able to support and lead researchers in transitioning to open
       science work modalities.
     - I become a
-      [Certified Carpentries Instructor](http://localhost:3469/my-work/other-roles/carpentries-instructor.html)
+      [Certified Carpentries Instructor](/my-work/other-roles/carpentries-instructor.html)
       in 2023.
-    - I co-developed and administrated the [QGreenland 2023 Researcher
-      Workshop](http://localhost:3469/my-work/projects/qgreenland-workshops/) in 2023.
+    - I co-developed and administrated the
+      [QGreenland 2023 Researcher Workshop](/my-work/projects/qgreenland-workshops/) in 2023.

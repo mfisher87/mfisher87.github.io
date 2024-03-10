@@ -5,14 +5,17 @@ image: "assets/janie_pfp.png"
 about:
   template: "trestles"
   links:
-    - icon: "github"
-      text: "Github"
+    - text: "Github"
+      icon: "github"
       href: "https://github.com/mfisher87"
-    - icon: "at"
-      text: "ORCiD"
+    - text: "ORCiD"
+      icon: "at"
       href: "https://orcid.org/0000-0003-3260-5445"
-    - icon: "envelope"
-      text: "E-mail"
+    - text: "Linkedin"
+      icon: "linkedin"
+      href: "https://www.linkedin.com/in/mattfisher8/"
+    - text: "E-mail"
+      icon: "envelope"
       href: "mailto:mfisher87@gmail.com"
 comments: false
 format:
@@ -43,15 +46,15 @@ I am currently employed as a Research Associate (Software Developer) at
 
 * **Open Science, accessibility, and inclusion**
 * **Community-owned software**
-* **Education** (certified Carpentries instructor)
-* **Tools for researchers and educators**
+* **Education**: [certified Carpentries instructor](/about/my-work/other-roles/carptentries-instructor.md)
+* **Supporting researchers and educators**
 * **Geospatial science data**: production, ingestion, services, and visualization
 * **Nature**: Gardening, dogs, wildlife
 
 :::{.d-grid .gap-2 .blockfix}
-[<i class="bi bi-file-earmark-person-fill"></i>&nbsp;&nbsp;My resume](resume.pdf){.btn .btn-success role="button"}
+[<i class="bi bi-person-fill"></i>&nbsp;&nbsp;More about me](/about){.btn .btn-success role="button"}
 
-[<i class="bi bi-tools"></i>&nbsp;&nbsp;My projects](my-work/projects/index.md){.btn .btn-primary role="button"}
+[<i class="bi bi-file-earmark-person-fill"></i>&nbsp;&nbsp;My resume](/resume.pdf){.btn .btn-primary role="button" target="_blank"}
 
-[<i class="bi bi-megaphone-fill"></i>&nbsp;&nbsp;My blog](posts/index.md){.btn .btn-primary role="button"}
+[<i class="bi bi-megaphone-fill"></i>&nbsp;&nbsp;My blog](/posts){.btn .btn-primary role="button"}
 :::

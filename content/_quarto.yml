@@ -9,23 +9,32 @@ website:
   repo-actions: ["edit", "issue"]
 
   navbar:
-    right:
+    left:
+      - text: "About"
+        # file: "about/index.md"
+        menu:
+          - text: "About me"
+            file: "about/index.md"
+          - text: "My projects"
+            href: "about/my-work/projects/index.md"
+          - text: "My workshops"
+            href: "about/my-work/workshops/index.md"
+          - text: "My other roles"
+            href: "about/my-work/other-roles/index.md"
+          - text: "My talks"
+            href: "about/my-work/talks/index.md"
+          - text: "My awards"
+            href: "about/my-work/awards/index.md"
+          - text: "My maintenance work"
+            href: "about/my-work/maintenance/index.md"
+
+      - text: "Résumé"
+        file: "resume.pdf"
+        target: "_blank"
+
       - text: "Blog"
         file: "posts/index.md"
-      - text: "Resume"
-        file: "resume.pdf"
-      - text: "My work"
-        menu:
-          - text: "Projects"
-            href: "my-work/projects/index.md"
-          - text: "Other roles"
-            href: "my-work/other-roles/index.md"
-          - text: "Talks"
-            href: "my-work/talks/index.md"
-          - text: "Awards"
-            href: "my-work/awards/index.md"
-          - text: "Maintenance"
-            href: "my-work/maintenance/index.md"
+
       - text: "More"
         menu:
           - text: "Cognitive load"
@@ -45,12 +54,43 @@ website:
             file: "crows.md"
           - text: "LEDs"
             file: "leds.md"
+
+    right:
+      - icon: "envelope-fill"
+        text: " "
+        aria-label: "Contact"
+        href: "contact.md"
+
       - icon: "github"
         aria-label: "GitHub"
         href: "https://github.com/mfisher87"
 
+
+  sidebar:
+    - title: "About"
+      style: "docked"
+      collapse-level: 3
+      contents:
+        - text: "👤 About me"
+          href: "about/index.md"
+          contents:
+            - text: "🛠️ My work"
+              href: "about/my-work/index.md"
+              # FIXME: I don't want each individual item in each of these
+              # categories to display on the sidebar, but I _do_ want
+              # breadcrumbs to work. I don't think I can currently have both in
+              # Quarto 1.4, so perhaps should open an issue.
+              contents:
+                - auto: "about/my-work/projects"
+                - auto: "about/my-work/workshops"
+                - auto: "about/my-work/other-roles"
+                - auto: "about/my-work/talks"
+                - auto: "about/my-work/awards"
+                - auto: "about/my-work/maintenance"
+
+
   page-footer:
-    left: "© Matt Fisher 2023"
+    left: "© Matt Fisher 2024"
     right: "Built with [Quarto](https://quarto.org/) ❤️"
 
 
@@ -60,9 +100,11 @@ format:
       light: ["flatly", "styles.scss"]
       dark: ["darkly", "styles.scss"]
     # Turn on emoji shortcodes:
+    # NOTE: Doesn't work in sidebar, nav or front-matter
     from: "markdown+emoji"
 
     toc: true
+
 
 # Enable comments by default
 # IMPORTANT: Set `comments: false` on pages like indexes!
