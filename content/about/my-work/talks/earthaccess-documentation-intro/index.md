@@ -1,5 +1,5 @@
 ---
-title: "_earthaccess_ documentation introduction"
+title: "Intro to contributing to _earthaccess_ documentation"
 subtitle: "An impromptu presentation at an _earthaccess_ bi-weekly hackathon"
 date: "2024-02-20"
 author:
