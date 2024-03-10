@@ -69,19 +69,24 @@ website:
   sidebar:
     - title: "About"
       style: "docked"
+      collapse-level: 3
       contents:
         - text: "👤 About me"
           href: "about/index.md"
-        - text: "🛠️ My work"
-          href: "about/my-work/index.md"
-          # contents: "about/my-work/*/index.md"
           contents:
-            - "about/my-work/projects/index.md"
-            - "about/my-work/workshops/index.md"
-            - "about/my-work/other-roles/index.md"
-            - "about/my-work/talks/index.md"
-            - "about/my-work/awards/index.md"
-            - "about/my-work/maintenance/index.md"
+            - text: "🛠️ My work"
+              href: "about/my-work/index.md"
+              # FIXME: I don't want each individual item in each of these
+              # categories to display on the sidebar, but I _do_ want
+              # breadcrumbs to work. I don't think I can currently have both in
+              # Quarto 1.4, so perhaps should open an issue.
+              contents:
+                - auto: "about/my-work/projects"
+                - auto: "about/my-work/workshops"
+                - auto: "about/my-work/other-roles"
+                - auto: "about/my-work/talks"
+                - auto: "about/my-work/awards"
+                - auto: "about/my-work/maintenance"
 
 
   page-footer:

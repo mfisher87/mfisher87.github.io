@@ -14,7 +14,7 @@ listing:
 ---
 
 In these projects, I was at least a **core contributor**. Select a project to learn
-more about the project and my role.
+more about the project and my role. This list is not exhaustive.
 
 :::{.callout-note}
 The "last contributed" date may not always be up-to-date. It may also represent an
