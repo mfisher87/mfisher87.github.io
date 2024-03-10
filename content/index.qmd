@@ -5,14 +5,17 @@ image: "assets/janie_pfp.png"
 about:
   template: "trestles"
   links:
-    - icon: "github"
-      text: "Github"
+    - text: "Github"
+      icon: "github"
       href: "https://github.com/mfisher87"
-    - icon: "at"
-      text: "ORCiD"
+    - text: "ORCiD"
+      icon: "at"
       href: "https://orcid.org/0000-0003-3260-5445"
-    - icon: "envelope"
-      text: "E-mail"
+    - text: "Linkedin"
+      icon: "linkedin"
+      href: "https://www.linkedin.com/in/mattfisher8/"
+    - text: "E-mail"
+      icon: "envelope"
       href: "mailto:mfisher87@gmail.com"
 comments: false
 format:
