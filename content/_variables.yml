@@ -18,9 +18,14 @@ projects:
   quarto:
     links: "[Quarto](https://quarto.org/) [[source](https://github.com/quarto-dev/quarto-cli)]"
     description: "An open-source scientific and technical publishing system."
+  nsidc-open-science-reading-club:
+    links: "[NSIDC Open Science Reading Club website](https://nsidc.github.io/open-science-reading-club/) [[source](https://github.com/nsidc/open-science-reading-club)]"
+    description: "A reading club at NSIDC for open discussion about our organization's open science journey."
+
 
 
 people:
+  robyn-marowitz: "[Robyn Marowitz](https://github.com/rmarow)"
   trey-stafford: "[Trey Stafford](https://github.com/trey-stafford)"
   twila-moon: "[Twila Moon](https://nsidc.org/about/about-nsidc/what-we-do/our-people/twila_moon)"
 
