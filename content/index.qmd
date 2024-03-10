@@ -52,9 +52,9 @@ I am currently employed as a Research Associate (Software Developer) at
 * **Nature**: Gardening, dogs, wildlife
 
 :::{.d-grid .gap-2 .blockfix}
-[<i class="bi bi-file-earmark-person-fill"></i>&nbsp;&nbsp;My resume](resume.pdf){.btn .btn-success role="button"}
+[<i class="bi bi-person-fill"></i>&nbsp;&nbsp;More about me](/about){.btn .btn-success role="button"}
 
-[<i class="bi bi-tools"></i>&nbsp;&nbsp;My projects](about/my-work/projects/index.md){.btn .btn-primary role="button"}
+[<i class="bi bi-file-earmark-person-fill"></i>&nbsp;&nbsp;My resume](/resume.pdf){.btn .btn-primary role="button"}
 
-[<i class="bi bi-megaphone-fill"></i>&nbsp;&nbsp;My blog](posts/index.md){.btn .btn-primary role="button"}
+[<i class="bi bi-megaphone-fill"></i>&nbsp;&nbsp;My blog](/posts){.btn .btn-primary role="button"}
 :::
