@@ -34,11 +34,6 @@ a 3-day hands-on open-source workshop that broke ground by running the QGIS geos
 \cvevent{Apr. 2016 - Present}{Associate Scientist III}{National Snow and Ice Data Center}{
   {\href{https://nasa-openscapes.github.io/mentors.html}{NASA Openscapes Mentor} - Trained researchers in open source development practices},
   {%
-    \href{https://github.com/mfisher87/BSSw-fellowship-application}{Candidate}
-    for
-    \href{https://bssw.io/pages/bssw-fellowship-program}{2024 Better Scientific Software (BSSw) Fellowship}
-  },
-  {%
     \href{https://cires.colorado.edu/about/institutional-programs/outstanding-performance-awards/all-recipients}{2022 CIRES Outstanding Performance Award recipient}
     - for high-impact work in science communication
   },
