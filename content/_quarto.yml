@@ -17,6 +17,8 @@ website:
             file: "about/index.md"
           - text: "My projects"
             href: "about/my-work/projects/index.md"
+          - text: "My workshops"
+            href: "about/my-work/workshops/index.md"
           - text: "My other roles"
             href: "about/my-work/other-roles/index.md"
           - text: "My talks"
@@ -54,6 +56,11 @@ website:
             file: "leds.md"
 
     right:
+      - icon: "envelope-fill"
+        text: " "
+        aria-label: "Contact"
+        href: "contact.md"
+
       - icon: "github"
         aria-label: "GitHub"
         href: "https://github.com/mfisher87"
@@ -63,16 +70,22 @@ website:
     - title: "About"
       style: "docked"
       contents:
-        - "about/index.md"
-        - "about/my-work/projects/index.md"
-        - "about/my-work/other-roles/index.md"
-        - "about/my-work/talks/index.md"
-        - "about/my-work/awards/index.md"
-        - "about/my-work/maintenance/index.md"
+        - text: "👤 About me"
+          href: "about/index.md"
+        - text: "🛠️ My work"
+          href: "about/my-work/index.md"
+          # contents: "about/my-work/*/index.md"
+          contents:
+            - "about/my-work/projects/index.md"
+            - "about/my-work/workshops/index.md"
+            - "about/my-work/other-roles/index.md"
+            - "about/my-work/talks/index.md"
+            - "about/my-work/awards/index.md"
+            - "about/my-work/maintenance/index.md"
 
 
   page-footer:
-    left: "© Matt Fisher 2023"
+    left: "© Matt Fisher 2024"
     right: "Built with [Quarto](https://quarto.org/) ❤️"
 
 
@@ -82,6 +95,7 @@ format:
       light: ["flatly", "styles.scss"]
       dark: ["darkly", "styles.scss"]
     # Turn on emoji shortcodes:
+    # NOTE: Doesn't work in sidebar, nav or front-matter
     from: "markdown+emoji"
 
     toc: true
