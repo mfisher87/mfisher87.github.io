@@ -46,7 +46,7 @@ I am currently employed as a Research Associate (Software Developer) at
 
 * **Open Science, accessibility, and inclusion**
 * **Community-owned software**
-* **Education**: [certified Carpentries instructor](/about/my-work/other-roles/carptentries-instructor.md)
+* **Education**: [certified Carpentries instructor](/about/my-work/other-roles/carpentries-instructor.md)
 * **Supporting researchers and educators**
 * **Geospatial science data**: production, ingestion, services, and visualization
 * **Nature**: Gardening, dogs, wildlife
