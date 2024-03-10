@@ -1,6 +1,6 @@
 ---
 title: "Certified Carpentries Instructor"
-subtitle: "I :heart: teaching workshops!"
+subtitle: "I ❤️ teaching workshops!"
 image: "https://github.com/carpentries/logo/blob/main/Badge_Carpentries.png?raw=true"
 ---
 
