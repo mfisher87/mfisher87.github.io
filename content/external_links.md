@@ -12,6 +12,13 @@ description: |
 * [ARCHITECTURE.md](https://matklad.github.io/2021/02/06/ARCHITECTURE.md.html)
 
 
+### Open Source Software Foundations
+
+* [SustainOSS](https://sustainoss.org/)
+* [Choose A Foundation](https://chooseafoundation.com/)
+* [FOSS Foundations Metadata directory](https://fossfoundation.info/openapi)
+
+
 ## Psychology
 
 * [Please Don’t Fake It Till You Make It: On the Need for Confidence, Honesty, & Integrity in Software Development](https://www.kristen-foster-marks.com/post/on-the-need-for-confidence-honesty-integrity-in-software-development)

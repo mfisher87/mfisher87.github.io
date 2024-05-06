@@ -6,4 +6,6 @@ listing:
     - "title"
     - "date"
     - "image"
+  sort:
+    - "date desc"
 ---
