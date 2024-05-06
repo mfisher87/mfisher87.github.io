@@ -80,7 +80,7 @@ aaf4c61ddcc5e8a2dabede0f3b482cd9aea9434d a3457012afa04a5d109ba19650d1ebb909dc9a9
 
 I wrote my hook code in Python:
 
-```{.python filename="$MY-REPO/.git/hooks/post-rewrite"}
+```{.python filename="${MY_REPO}/.git/hooks/post-rewrite"}
 #!/usr/bin/env python
 """Move tags from old commit to new commit on every re-written commit.
 
