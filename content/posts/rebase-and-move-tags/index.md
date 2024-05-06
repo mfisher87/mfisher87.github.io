@@ -35,12 +35,12 @@ you can detect issues before they make it to your repository.
 
 :::{.callout-info}
 There are some pre-commit checks, like
-`[check-added-large-files](https://pre-commit.com/hooks.html)` that I recommend for
+[`check-added-large-files`](https://pre-commit.com/hooks.html) that I recommend for
 every repository!
 :::
 
 To create my pre-commit mirror for Alex.js, I used
-`[pre-commit-mirror-maker](https://github.com/pre-commit/pre-commit-mirror-maker)` to
+[`pre-commit-mirror-maker`](https://github.com/pre-commit/pre-commit-mirror-maker) to
 generate a repository with one commit (plus tag) for each version of Alex.js. I only
 needed to do a couple of steps, and everything worked great! :tada:
 
