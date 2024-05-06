@@ -12,6 +12,6 @@ image: "https://img.youtube.com/vi/rzi-qkl8u5M/0.jpg"
 I taught the Psychological Safety / Team Culture lesson for the 2024 NASA Openscapes
 Champion Cohort.
 
-Slides: https://github.com/mfisher87/presentation-nasa-openscapes-team-culture
+Slides: <https://github.com/mfisher87/presentation-nasa-openscapes-team-culture>
 
 {{< video https://www.youtube.com/watch?v=rzi-qkl8u5M >}}
