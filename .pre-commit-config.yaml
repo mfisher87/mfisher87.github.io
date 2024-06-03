@@ -5,7 +5,7 @@ ci:
 
 repos:
   - repo: "https://github.com/pre-commit/pre-commit-hooks"
-    rev: "v4.4.0"
+    rev: "v4.6.0"
     hooks:
       - id: "check-added-large-files"
       - id: "check-vcs-permalinks"
@@ -19,13 +19,13 @@ repos:
     - id: "alex"
 
   - repo: "https://github.com/codespell-project/codespell"
-    rev: "v2.2.4"
+    rev: "v2.3.0"
     hooks:
       - id: "codespell"
         exclude: ".codespellignore"
 
   - repo: "https://github.com/pre-commit/mirrors-prettier"
-    rev: "v3.1.0"
+    rev: "v4.0.0-alpha.8"
     hooks:
       - id: "prettier"
         files: "CITATION.cff"
