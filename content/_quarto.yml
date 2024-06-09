@@ -19,6 +19,8 @@ website:
             href: "about/my-work/projects/index.md"
           - text: "My workshops"
             href: "about/my-work/workshops/index.md"
+          - text: "My publications"
+            href: "about/my-work/publications/index.md"
           - text: "My other roles"
             href: "about/my-work/other-roles/index.md"
           - text: "My talks"
