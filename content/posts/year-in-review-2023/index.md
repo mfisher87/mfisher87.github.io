@@ -62,6 +62,14 @@ Some ideas I recorded but didn't start on ... _yet_.
   [Zynthian](https://zynthian.org/)
 
 
+## Organizational strategy
+
+Throughout this year, I was an active member of NSIDC's open science working group.
+
+I joined the newly established professional development working group, and led the
+effort to update its mandate to include autonomous innovation.
+
+
 ## [ProjForge](https://github.com/proj-forge/proj-forge.github.io)
 
 A free-time exploration with [Sun Bak-Hospital](https://github.com/sunny-bak) at NOAA of
@@ -94,25 +102,36 @@ We also applied some [tooling upgrades](https://github.com/conda/conda-lock/pull
 
 ## [QGreenland](/about/my-work/projects/qgreenland)
 
-In August 2023, I lead the creation of
+I was a core contributor to
+[QGreenland v3](https://github.com/nsidc/qgreenland/releases/tag/v3.0.0),
+released in August 2023.
+
+In the same month, I led the creation of
 [a guest post in the Jupyter Blog about our experience bringing desktop GIS software to a cloud JupyterHub environment](/about/my-work/publications/jupyter-blog-2023.md).
 
 
-## [Openscapes](https://openscapes.org/), [Carpentries Instructor certification](https://openscapes.org/), & [_earthaccess_](https://github.com/nsidc/earthaccess)
+## [Openscapes](https://openscapes.org/), [Carpentries Instructor certification](https://carpentries.org/instructors/), & [_earthaccess_](https://github.com/nsidc/earthaccess)
 
 In September (_TODO: Accurate? September is my earliest data point_) 2023, I was invited
 to join the [NASA Openscapes Mentor](https://nasa-openscapes.github.io/mentors.html)
-team. Shortly after, I took Carpentries Instructor training and received my
-certification.
+team. In this role, I help researchers to adopt modern open source software development
+practice and learn to work with data in the cloud, especially data too large to use in
+the way they're used to, downloading it to their personal computer.
 
-For the [2024 Openscapes Champions Cohort](https://nasa-openscapes.github.io/champions),
+Shortly after joining the NASA Openscapes Mentor team, I took Carpentries Instructor
+training and received my certification.
+
+For the [2024 NASA Openscapes Champions Cohort](https://nasa-openscapes.github.io/champions),
 [I taught a lesson on psychological safety](https://www.youtube.com/watch?v=rzi-qkl8u5M)
-([slides](https://github.com/mfisher87/presentation-nasa-openscapes-team-culture)).
+([slides](https://github.com/mfisher87/presentation-nasa-openscapes-team-culture)) and
+contributed to lessons led by other mentors.
 
 Throughout 2023 and 2024, I have been a maintainer, core contributor, and community
 manager for the [_earthaccess_](https://github.com/nsidc/earthaccess) project, which
 simplifies both download and cloud-based access to NASA Earth Observation data from a
-major hurdle to getting science done to 3 repeatable Python statements. I co-facilitate
+major hurdle to getting science done to 3 repeatable Python statements.
+
+I co-facilitate
 [bi-weekly _earthaccess_ hack day events](https://earthaccess.readthedocs.io/en/latest/contributing/our-meet-ups/)
 and have brought in several new members through outreach in other communities. My
 involvement in _earthaccess_ is funded by my Openscapes salary allocation.
@@ -155,8 +174,14 @@ citable [Digital Object Identifiers (DOIs)](https://www.doi.org/), we found a wa
 forward to working on the project together as a team while feeling safe and secure that
 we would all be properly credited for our work.
 
-Finding comfort in shared hardships and solving problems together with this team was
-extremely rewarding, and I won't forget it!
+**Finding comfort in shared hardships and solving problems together with this team was
+extremely rewarding, and I won't forget it!**
+
+
+## [NSIDC technical blog](https://nsidc.github.io/)
+
+In May 2023, I worked with Robyn Marowitz to re-invigorate the NSIDC development team's
+technical blog, contributing to three new posts.
 
 
 ## Hiring a new Engineering Manager for NSIDC
@@ -171,6 +196,21 @@ The Benefit Tool enables AON administrators to configure and distribute surveys 
 experts for the purpose of evaluating societal benefit of applications, data products,
 and observing systems. I developed a prototype in late 2023, and continued work with
 Robyn Marowitz to develop the version that's currently live.
+
+To help smooth over the departure of our outgoing engineering manager, I took on a new
+role of project manager for this project, given my established report with the client. I
+facilitated development of a service agreement, negotiated requirements and deadlines,
+took on new reporting duties, and additional accountability for the success of the
+project.
+
+In this project, I led the team in working openly in all regards from the start. Not
+everyone had experience in working this way, but the team was excited to try. We manage
+our work openly in GitHub issues and Projects, we build high quality documentation aimed
+at the public, we manage our work in a way that makes it accessible to members of
+the public, and we create a welcoming environment for contributors. **Our greatest measure
+of success is that we been receiving ongoing volunteer contributions from an
+unaffiliated member of the public over the last year, and that person has branched out
+to contributing to other NSIDC projects as well.**
 
 
 ## My first [American Geophysical Union (AGU)](https://www.agu.org/) presentation
@@ -281,8 +321,8 @@ I [found and fixed a bug in Argo's docs](https://github.com/argoproj/argo-workfl
 
 ## A way to automate inclusive language checking
 
-I set up an
-[AlexJS pre-commit "mirror" repository](https://github.com/mfisher87/alexjs-pre-commit-mirror).
+In May 2024, I set up a
+[ pre-commit "mirror" repository for Alex.js](https://github.com/mfisher87/alexjs-pre-commit-mirror).
 This enables [Alex.js](https://alexjs.com/), an inclusive language checker, to be run with
 [pre-commit](https://pre-commit.com/), an automation tool for Git, by copying a few
 lines of configuration, no extra installation required.
@@ -311,6 +351,11 @@ We will soon build a UI for searching and visualizing these rain on snow events 
 the API and UI available to the public.
 
 
+## [NASA Space Apps Challenge](https://www.spaceappschallenge.org/)
+
+Reviewer and subject matter expert (SME) for 2024 Space Apps Challenge number 19.
+
+
 ## Open communities & team/organizational culture development
 
 In pursuit of a new passion for team culture, in late 2023 I started reading voraciously
@@ -318,13 +363,20 @@ about the subject. I started Peggy Holman's books _Engaging Emergence_ and _The 
 Handbook_, in addition to research papers by Holman, Julie Lowndes (a colleague through
 the [NASA-Openscapes Mentor program](https://nasa-openscapes.github.io/)), and Cat Hicks.
 
+In December 2023, I attended the Center for Scientific Collaboration and Community
+Management (CSCCE)
+[Enacting culture change: The Four-Frame Model workshop](https://web.archive.org/web/20231207080346/https://www.cscce.org/event/mini-workshop-enacting-culture-change-the-four-frame-model/).
+
 I established discussion groups in my work communities: the
 [Openscapes psychological safety seaside chat](https://openscapes.github.io/seaside-chat-psychological-safety/)
 with Sun Bak- Hospital in April 2024; and the
 [NSIDC open science reading club](https://nsidc.github.io/open-science-reading-club/)
-with Robyn Marowitz in Feb & May 2024. I also joined a [CIRES](https://cires.colorado.edu/)
-neurodiversity bookclub led by Becca Edwards in which we will read _Neurodiversity at
-Work: Drive Innovation, Performance and Productivity with a Neurodiverse Workforce_.
+with Robyn Marowitz in Feb & May 2024. In April 2024, I attended a presentation
+and small group follow-up discussion about implicit bias in the workplace, both led by
+[CIRES](https://cires.colorado.edu/) DEI Director Becca Edwards. In June 2024 I also
+joined a CIRES neurodiversity bookclub led by Becca Edwards in which we will read
+_Neurodiversity at Work: Drive Innovation, Performance and Productivity with a
+Neurodiverse Workforce_.
 
 
 ## Reflection
