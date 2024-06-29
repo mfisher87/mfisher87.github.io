@@ -12,7 +12,9 @@ This post is stimulated by my employer's annual self-assessment process. It help
 think about the last year holistically, and write things down. My brain doesn't
 naturally attach calendar timeframes to my memories
 ([weird memory stuff like this seems to be common for folks with autism](https://en.wikipedia.org/wiki/Autism_and_memory)),
-so I hope this will help. I'm going to try and do a post like this roughly every year!
+so I hope this will help. I'm going to try and do a post like this roughly every
+year! It's going to be a long one, so if you're reading this and you're not future-me,
+I'm sure you've got better things to do :wink:
 
 **This post covers July 1, 2023 to June 30, 2024.**
 
@@ -60,6 +62,44 @@ Some ideas I recorded but didn't start on ... _yet_.
   [Morgan Ågren's Git-hat](https://www.youtube.com/watch?v=t-gVMHY8_VY).
 * The [open organ](https://github.com/mfisher87/open-organ), inpired by
   [Zynthian](https://zynthian.org/)
+
+
+## Communicating with people
+
+I've had some recurring struggles communicating with someone in my life. As a
+neurodivergent person I often have to make significant adaptations to my communication
+style to communicate with people who think differently, which is most people. I'm fine
+with this, have accepted it, I adapt (and
+[mask](https://en.wikipedia.org/wiki/Autistic_masking)) _all the time_, and feel I've
+largely been successful figuring out how to communicate with everyone in my life.
+
+<!-- alex disable nuts -->
+But for a very small number of individuals, one in particular in my life right now, I
+find myself exerting tens to hundreds of times more effort than normal to adapt to their
+communication style. For example, I ask them for significantly more feedback, I reach
+out to the people they get along with to ask for advice, and I build a detailed set of
+mental rules for communication with that one person. This extra effort is required
+because they are very rigid in how they expect to be communicated with, and when that
+expectation isn't met, they shut down communication. These incidents, maybe one or two a
+year, have a huge emotional impact on me. Therapy helps. But it doesn't seem right to
+bear so much emotional burden.
+<!-- alex enable nuts -->
+
+I feel a good explanation may be the
+[double empathy problem](https://journals.sagepub.com/doi/10.1177/13623613221129123#bibr14-13623613221129123).
+The general idea is that any people with very different experiences will have difficulty
+empathizing with each other, which leads to a perception of defects or deficiencies, for
+example that neurodivergent people (whether they are known to be neurodivergent or not)
+are socially defective (for example, because they went in to deeper detail than was
+expected), or deficient in empathy (for example, because their facial expression is not
+what was expected).
+
+<!-- alex disable just -->
+I am currently pursuing a neutral mediation with this person to attempt to come to a
+mutually agreeable way to continue to communicate productively. I expect we will both
+need to adapt and be a little bit uncomfortable. I just don't want adaptation to be
+completely on my shoulders.
+<!-- alex enable just -->
 
 
 ## Organizational strategy
@@ -335,6 +375,8 @@ This enables [Alex.js](https://alexjs.com/), an inclusive language checker, to b
 [pre-commit](https://pre-commit.com/), an automation tool for Git, by copying a few
 lines of configuration, no extra installation required.
 
+[Here is how I use this automation to check for this blog for inclusive language](https://github.com/mfisher87/mfisher87.github.io/blob/b6b0ab184c15de2055d56c2dd80d4d708b49fd35/.pre-commit-config.yaml#L16-L19).
+
 
 ## [NASA ROSES proposal to fund _earthaccess_ sustainment](https://github.com/nsidc/earthaccess-proposal-2024-nasa-roses)
 
@@ -389,4 +431,26 @@ Neurodiverse Workforce_.
 
 ## Reflection
 
-... TODO ...
+The past year has been a major growth year. I normally don't do things this diverse.
+It's been fun. But I'm also feeling constrained by my day to day work. I'm looking to
+change my `$DAY_JOB` role a bit. I want to continue to do education and community work,
+like developing and facilitating workshops and hackathons. I want to do more
+community-first open source work, and less working alone. I want to maybe learn Rust! I
+want to do more work promoting psychologically safe and inclusive team culture.
+
+<!-- alex disable he-she -->
+I keep getting better at communicating with others, and while I continue to struggle
+with difficult emotions when that doesn't work out, that keeps getting better too. I
+feel like I'm mellowing out more and more with age. I fondly remember a negative
+interaction at my first job, maybe 14 years ago, and a colleague understood on a deep
+level as shown by this sweet note she left under my mouse:
+<!-- alex enable he-she -->
+
+<!-- alex disable simple -->
+![Bystander intervention can be as simple as showing you understand. This meant a lot to
+me. It lives on my desk, even after moving house 3 times.](sweet_booby_trap_note.jpg)
+<!-- alex enable he-she simple -->
+
+Allies are out there.
+
+Looking forward to what the future holds!
