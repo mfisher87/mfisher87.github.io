@@ -227,6 +227,14 @@ every year.
 but the video is not publicly available.
 
 
+<!-- alex ignore white -->
+## Submission to [White House Office of Science & Technology Policy Year of Open Science Recognition Challenge](https://www.challenge.gov/?challenge=ostp-year-of-open-science-recognition-challenge)
+
+In December, I led a submission to the Year of Open Science Recognition Challenge. Our
+team was not recognized. We are very proud of another NSIDC team,
+[ELOKA, which was recognized!](https://eloka-arctic.org/news/white-house-recognizes-eloka-champion-open-science)
+
+
 ## Personal documentation
 
 In late 2023, I started an effort to document my personal projects: a
