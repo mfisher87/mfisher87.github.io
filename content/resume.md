@@ -1,6 +1,6 @@
 ---
 author: "Matt Fisher"
-title: "Open Source Geospatial Research Software Developer"
+title: "Open Source Geospatial Research Software Developer - Boulder, CO"
 format:
   classic-cv-pdf: "default"
 cvfooter:
@@ -14,50 +14,99 @@ cvcolor: "2d7d11"
 cvfont: "fetamont"
 cvmeta:
   - title: "Status"
-    left: "Associate Scientist III at National Snow and Ice Data Center"
-    right: "Boulder, CO"
+    left: "Associate Scientist III at National Snow and Ice Data Center (NSIDC)"
+    right: "\\href{mailto:mfisher87@gmail.com}{mfisher87@gmail.com}"
   - title: "Field"
     left: "Geospatial Software & Data Engineering"
+    right: "\\href{https://github.com/mfisher87}{github.com/mfisher87}"
+  - title: "My website"
+    left: "\\href{https://mfisher87.github.io}{mfisher87.github.io}"
     right: "\\href{https://orcid.org/0000-0003-3260-5445}{orcid.org/0000-0003-3260-5445}"
-  - title: "Skills"
-    left: "Open science, teaching, FAIR & CARE, Python, TypeScript, software architecture, Linux, containers, k8s, CI/CD"
-    right: "\\href{mailto:mfisher87@gmail.com}{mfisher87@gmail.com}"
 ---
 
-A research software developer passionate about open source, community ownership, accessibility, and inclusivity.
-Open-source software maintainer, co-author of \textit{QGreenland}, and co-author and instructor of \textit{QGreenland 2023 Researcher Workshop},
-a 3-day hands-on open-source workshop that broke ground by running the QGIS geospatial analysis environment at classroom scale in the cloud.
+## Summary
+
+A research software developer passionate about open source, community ownership,
+accessibility, inclusivity, and education. Open-source software author and maintainer.
+Core contributor and community manager to
+\href{https://github.com/nsidc/earthaccess}{\textit{earthaccess}}; co-author of
+\href{https://qgreenland.org/}{\textit{QGreenland}};
+and co-author and instructor of
+\href{https://qgreenland-workshop-2023-researcher.github.io/}{\textit{QGreenland 2023 Researcher Workshop}},
+a 3-day hands-on open-source geospatial data best practices workshop that pioneered
+running the \textit{QGIS} geospatial analysis environment at classroom scale in a
+cloud-based \textit{JupyterHub}. Certified
+\href{https://carpentries.org/instructors/}{Software Carpentry instructor}.
 
 
-# Experience
+## Experience
 
-\cvevent{Apr. 2016 - Present}{Associate Scientist III}{National Snow and Ice Data Center}{
-  {\href{https://nasa-openscapes.github.io/mentors.html}{NASA Openscapes Mentor} - Trained researchers in open source development practices},
+\cvevent{Apr. 2016 - Present}{Associate Scientist III}{National Snow and Ice Data Center (NSIDC)}{
+  {%
+    \href{https://nasa-openscapes.github.io/mentors.html}{NASA Openscapes Mentor} -
+    Trained researchers in open source and cloud-ready development practices;
+    \href{https://www.youtube.com/watch?v=rzi-qkl8u5M}{developed and presented a lesson on psychological safety}
+    to research teams in the NASA Openscapes Champions 2024 cohort; facilitated
+    hackathon events
+  },
+  {%
+    Member of strategic working groups: Open Science; Employee Recognition; Employee
+    Learning and Innovation
+  },
+  {Co-founder of discussion groups:
+    \href{https://github.com/nsidc/open-science-reading-club}{Open Science Reading Club};
+    \href{https://github.com/Openscapes/seaside-chat-psychological-safety/}{Psychological Safety Discussion Group}
+  },
+  {%
+    Invited panelist on
+    \href{https://mfisher87.github.io/presentation-20230926-nna-webinar/}{"Making Arctic Science Open Science" \textit{Navigating the New Arctic} Community Office webinar}
+  },
+  {%
+    Co-author and co-investigator on
+    \href{https://github.com/nsidc/earthaccess-proposal-2024-nasa-roses}{NASA ROSES proposal seeking sustainment funding for \textit{earthaccess}}
+  },
   {%
     \href{https://cires.colorado.edu/about/institutional-programs/outstanding-performance-awards/all-recipients}{2022 CIRES Outstanding Performance Award recipient}
     - for high-impact work in science communication
   },
-  {Co-authored \href{https://qgreenland.org/}{\textit{QGreenland}}, a free interdisciplinary Greenland-focused GIS analysis and visualization environment},
-  {Co-authored
+  {%
+    Co-author of \href{https://qgreenland.org/}{\textit{QGreenland}},
+    a free interdisciplinary Greenland-focused GIS analysis and visualization environment
+  },
+  {%
+    Core contributor to \href{https://qgreenland-net.github.io/}{QGreenland-Net}, a
+    3-year follow-up collaboration between Arctic Data Center (ADC) and NSIDC which
+    seeks to build an Open Geospatial Data Cloud (OGDC) to improve discoverability,
+    accessibility, and interoperability for geospatial data
+  },
+  {Co-author and co-facilitator for the
     \href{https://github.com/qgreenland-workshop-2023-researcher/}{\textit{QGreenland 2023 Researcher Workshop}}
+  },
+  {Improved
+    \href{https://github.com/CryoInTheCloud/hub-image/pull/59/files}{accessibility} and
+    \href{https://github.com/CryoInTheCloud/hub-image/issues/60}{performance}
+    of \textit{QGIS} desktop software in cloud-based \textit{JupyterHub} environment;
+    \href{https://blog.jupyter.org/desktop-gis-software-in-the-cloud-with-jupyterhub-ddced297019a}{authored a guest post on Jupyter Blog}
     and
-    \href{https://blog.jupyter.org/desktop-gis-software-in-the-cloud-with-jupyterhub-ddced297019a}{related guest post on Jupyter Blog}
+    \href{https://agu.confex.com/agu/fm23/meetingapp.cgi/Paper/1365725}{presented at American Geophysical Union (AGU) 2023 Annual Meeting} on this work
   },
-  {\href{https://agu.confex.com/agu/fm23/meetingapp.cgi/Paper/1365725}{Presenter at American Geophysical Union 2023 Annual Meeting}},
-  {Architected and developed a graphical async data ordering system for NSIDC data},
-  {Created data processing pipelines and services for research data (e.g.
+  {Architected and implemented geospatial database (PostGIS) models and applications},
+  {Architected and implemented a graphical asynchronous data ordering system for NSIDC data},
+  {Created data processing pipelines and services for research data including:
     \href{https://nsidc.org/data/g02135}{\textit{Sea Ice Index}},
-    \href{https://nsidc.org/data/nsidc-0102}{\textit{Images of Antarctic Ice Shelves}})
+    \href{https://nsidc.org/data/nsidc-0102}{\textit{Images of Antarctic Ice Shelves}}
   },
-  {Modernized legacy software and services},
-  {Developed geospatial data visualization tools including:
+  {Developed geospatial data visualization applications including:
     \href{https://nsidc.org/arcticseaicenews/charctic-interactive-sea-ice-graph/}{\textit{ChArctic}},
     \href{https://nsidc.org/apps/aross-leo-map/}{\textit{Arctic Rain on Snow Study Interactive Map}},
     \href{https://nsidc.org/snow-today/snow-viewer}{\textit{Snow Today}},
     \href{http://nsidc.org/greenland-today/2021/01/announcing-antarctica-today/}{\textit{Antarctica Today}},
+    \href{https://github.com/nsidc/aross-stations}{Arctic Rain on Snow Study Events
+    Database},
     and
     \href{https://nsidc.org/greenland-today/greenland-surface-melt-extent-interactive-chart/}{\textit{Greenland Today}}
-  }
+  },
+  {Modernized legacy software and services}
 }
 
 \cvevent{Jun. 2008 - Apr. 2016}{Senior Software Engineer}{Discover Financial Services}{
@@ -71,7 +120,7 @@ a 3-day hands-on open-source workshop that broke ground by running the QGIS geos
   {Designed relational database (Oracle, IBM DB2) models}
 }
 
-\cvevent{}{Open Source Software Developer}{Volunteer}{
+\cvevent{2013 - Present}{Open Source Software Developer}{Volunteer}{
   {%
     Maintainer of \href{https://github.com/matplotlib/viscm}{\textit{viscm}}
     - A tool for developing mathematically-derived perceptually uniform scientific colormaps
@@ -81,30 +130,62 @@ a 3-day hands-on open-source workshop that broke ground by running the QGIS geos
     - A tool that enables reproducibile software environments in the Conda ecosystem
   },
   {%
-    Maintainer of \href{https://github.com/nsidc/earthaccess}{\textit{earthaccess}}
+    Core contributor, maintainer, and community manager of
+    \href{https://github.com/nsidc/earthaccess}{\textit{earthaccess}}
     - A library that simplifies searching, downloading, and streaming NASA Earth science data
   },
   {%
-    Maintainer of conda-forge feedstocks:
+    Contributor to \href{https://conda-forge.org/}{\textit{Conda Forge}} ecosystem and
+    maintainer of conda-forge feedstocks:
     \href{https://github.com/conda-forge/earthdata-feedstock}{\textit{earthaccess}},
     \href{https://github.com/conda-forge/quarto-feedstock}{\textit{Quarto}},
-    \href{https://github.com/conda-forge/viscm-feedstock}{\textit{viscm}}
+    \href{https://github.com/conda-forge/viscm-feedstock}{\textit{viscm}},
+    \href{https://github.com/conda-forge/pangeo-forge-runner-feedstock}{\textit{pangeo-forge-runner}},
+    \href{https://github.com/conda-forge/bump-my-version-feedstock}{\textit{bump-my-version}},
+    \href{https://github.com/conda-forge/coloraide-feedstock}{\textit{coloraide}},
+    \href{https://github.com/conda-forge/pdgstaging-feedstock}{\textit{pdgstaging}},
+    \href{https://github.com/conda-forge/pdgraster-feedstock}{\textit{pdgraster}}
   }
 }
 
 
-# Education
+## Continued \$\\Rightarrow\$
+\pagebreak
+
+
+## Education
 
 \cvevent{2023}{Certified Instructor}{The Carpentries}{}
 
 \cvevent{2005-2009}{Bachelor of Science in Computer Information Systems}{Bradley University, Illinois, USA}{}
 
 
-# About me
+## About me
+
+\cvevent{}{Skills}{Sustainable software engineering, open science, inclusivity, teaching, learning}{
+  {%
+    \href{https://www.go-fair.org/fair-principles/}{FAIR open data principles} \&
+    \href{https://www.gida-global.org/care}{CARE indigenous data governance principles}
+  },
+  {Psychological safety \& inclusive language},
+  {Git \& GitHub},
+  {Python, TypeScript, \& shell scripting},
+  {Geospatial software and database development},
+  {Software architecture, data modeling, \& technical communication},
+  {API design and development},
+  {Linux, containers, Kubernetes, workflow management systems},
+  {Continuous Integration, Delivery, \& Deployment},
+  {Collaborative development, \href{https://tuple.app/pair-programming-guide}{"pair/group programming"}},
+  {Documentation \href{https://www.diataxis.fr/quality/}{"deep quality"}},
+  {Community management and hackathon facilitation},
+  % <!-- alex ignore adult -->
+  {Adult education - andragogy; teaching with \& administering \textit{JupyterHub}}
+}
 
 \cvevent{}{Career interests}{Software communities, open science, collaboration}{
-  {Education for researchers - open science and inclusive, sustainable community leadership},
-  {Collaborative development, i.e. "pair/group programming"}
+  {Education for researchers - open science, software development, and cloud practices},
+  {Open source software - inclusive and sustainable community engagement},
+  {Developer experience and team/organizational culture}
 }
 
 \cvevent{}{Personal interests}{Tech, music, nature}{
