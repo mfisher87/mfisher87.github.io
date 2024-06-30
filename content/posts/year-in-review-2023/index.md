@@ -81,8 +81,8 @@ out to the people they get along with to ask for advice, and I build a detailed 
 mental rules for communication with that one person. This extra effort is required
 because they are very rigid in how they expect to be communicated with, and when that
 expectation isn't met, they shut down communication. These incidents, maybe one or two a
-year, have a huge emotional impact on me. Therapy helps. But it doesn't seem right to
-bear so much emotional burden.
+year, have a huge emotional impact on me. Therapy helps! But this is also not a
+productive communication pattern, and we need to work together to fix it.
 <!-- alex enable nuts -->
 
 I feel a good explanation may be the
@@ -94,11 +94,19 @@ are socially defective (for example, because they went in to deeper detail than 
 expected), or deficient in empathy (for example, because their facial expression is not
 what was expected).
 
+To help myself navigate these situations better in the future, I will be taking a
+[_Crucial Conversations_](https://cruciallearning.com/browse-courses/crucial-conversations-for-dialogue/)
+workshop
+[offered by my university](https://calendar.colorado.edu/event/crucial_conversations_workshop)
+this coming year. In addition to learning new communication techniques, this workshop
+will offer the opportunity to practice with real people. I'm excited for the
+possibilities this will open up for me!
+
 <!-- alex disable just -->
 I am currently pursuing a neutral mediation with this person to attempt to come to a
 mutually agreeable way to continue to communicate productively. I expect we will both
-need to adapt and be a little bit uncomfortable. I just don't want adaptation to be
-completely on my shoulders.
+need to adapt and be a little bit uncomfortable. Solving communication issues shouldn't
+be the sole burden of a single person!
 <!-- alex enable just -->
 
 
@@ -346,7 +354,7 @@ From March to June 2024, I worked on a team to explore and prototype workflow
 technologies we will use to build cyberinfrastructure for community-managed geospatial
 research data transformation recipes which write output artifacts to
 [DataONE](https://www.dataone.org/). We found many similarities between our goals and
-those of [Pange Forge](https://pangeo-forge.org/), but after exploring collaboration
+those of [Pangeo Forge](https://pangeo-forge.org/), but after exploring collaboration
 with members of the Pangeo Forge team, we found timing and funding considerations would
 be major obstacles.
 
@@ -441,16 +449,17 @@ want to do more work promoting psychologically safe and inclusive team culture.
 <!-- alex disable he-she -->
 I keep getting better at communicating with others, and while I continue to struggle
 with difficult emotions when that doesn't work out, that keeps getting better too. I
-feel like I'm mellowing out more and more with age. I fondly remember a negative
-interaction at my first job, maybe 14 years ago, and a colleague understood on a deep
-level as shown by this sweet note she left under my mouse:
+feel like I'm mellowing out more and more with age and therapy. I fondly remember a
+negative interaction at my first job, maybe 14 years ago, and a colleague understood on
+a deep level as shown by this sweet note she left under my mouse:
 <!-- alex enable he-she -->
 
-<!-- alex disable simple -->
-![Bystander intervention can be as simple as showing you understand. This meant a lot to
-me. It lives on my desk, even after moving house 3 times.](sweet_booby_trap_note.jpg)
-<!-- alex enable he-she simple -->
+<!-- alex disable simple booby trap-->
+![](sweet_booby_trap_note.jpg){fig-alt="A hand-written note reading: If you want me to booby trap your neighbor's chair, I will! =)"}
+<!-- alex enable simple -->
 
-Allies are out there.
+<!-- TODO: Move text below to image caption after Quarto >1.4.550 is released on Conda Forge -->
+<figcaption>Bystander intervention can be as simple as showing you understand. This meant a lot to me. It lives on my desk, even after moving house 3 times.</figcaption>
+<!-- alex enable booby trap -->
 
-Looking forward to what the future holds!
+Allies are out there. I'm looking forward to taking _Crucial Conversations_ this year!
