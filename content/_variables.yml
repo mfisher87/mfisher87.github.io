@@ -1,6 +1,8 @@
 projects:
   qgreenland:
     links: "[QGreenland](https://qgreenland.org) [[source](https://github.com/nsidc/qgreenland)]"
+  qgreenland-net:
+    links: "[QGreenland-Net](https://qgreenland-net.github.io/) [[source](https://github.com/QGreenland-Net)]"
   qgreenland-workshop-2023:
     links: "[QGreenland Researcher Workshop 2023](https://qgreenland-workshop-2023-researcher.github.io/) [[source](https://github.com/qgreenland-workshop-2023-researcher/qgreenland-workshop-2023-researcher.github.io)]"
   snow-today:
