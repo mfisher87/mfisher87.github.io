@@ -163,23 +163,26 @@ cloud-based \textit{JupyterHub}. Certified
 ## About me
 
 \cvevent{}{Skills}{Sustainable software engineering, open science, inclusivity, teaching, learning}{
+  {Software architecture\footnotemark[2]{}, data modeling, and technical communication},
+  {Psychological safety\footnotemark[1]{} and inclusive language\footnotemark[1]{}},
+  {Geospatial research software and database development\footnotemark[2]{}},
   {%
-    \href{https://www.go-fair.org/fair-principles/}{FAIR open data principles} \&
+    \href{https://www.go-fair.org/fair-principles/}{FAIR open data principles}\footnotemark[1]{} and
     \href{https://www.gida-global.org/care}{CARE indigenous data governance principles}
   },
-  {Psychological safety \& inclusive language},
-  {Git \& GitHub},
-  {Python, TypeScript, \& shell scripting},
-  {Geospatial software and database development},
-  {Software architecture, data modeling, \& technical communication},
-  {API design and development},
-  {Linux, containers, Kubernetes, workflow management systems},
-  {Continuous Integration, Delivery, \& Deployment},
-  {Collaborative development, \href{https://tuple.app/pair-programming-guide}{"pair/group programming"}},
-  {Documentation \href{https://www.diataxis.fr/quality/}{"deep quality"}},
-  {Community management and hackathon facilitation},
+  {Digital Object Identifiers (DOIs)\footnotemark[1]{}, Citation File Format (CFF)\footnotemark[1]{}, and Zenodo\footnotemark[1]{}},
+  {Continuous Integration, Delivery, and Deployment\footnotemark[2]{}},
+  {API design and development\footnotemark[1]{}},
+  {Git\footnotemark[2]{} and GitHub\footnotemark[2]{}},
+  {Python\footnotemark[2]{}, TypeScript\footnotemark[1]{}, and Bash\footnotemark[2]{} programming},
+  {Python\footnotemark[2]{}, JavaScript, and Conda\footnotemark[2]{} software packaging},
+  {Linux\footnotemark[2]{}, containers\footnotemark[2]{}, Kubernetes\footnotemark[1]{}, and workflow management systems\footnotemark[1]{}},
+  {Collaborative development and \href{https://tuple.app/pair-programming-guide}{"pair/group programming"}\footnotemark[2]{}},
+  {Documentation \href{https://www.diataxis.fr/quality/}{"deep quality"}\footnotemark[2]{}},
+  {Community management and hackathon facilitation\footnotemark[1]{}},
+  {Mentoring and talent development},
   % <!-- alex ignore adult -->
-  {Adult education - andragogy; teaching with \& administering \textit{JupyterHub}}
+  {Adult education - andragogy and teaching with \& administering \textit{JupyterHub}}
 }
 
 \cvevent{}{Career interests}{Software communities, open science, collaboration}{
@@ -188,8 +191,13 @@ cloud-based \textit{JupyterHub}. Certified
   {Developer experience and team/organizational culture}
 }
 
-\cvevent{}{Personal interests}{Tech, music, nature}{
+\cvevent{}{Personal interests}{Technology, music, nature}{
   {Playing, recording, developing, and constructing electric and acoustic musical instruments},
   {Self-hosted services and home automation with Home Assistant},
   {Plants (especially organic gardening) and animals (especially dogs)}
 }
+
+
+\footnotetext[1]{\textbf{Advanced} - I have considerable experience with this skill and
+can comfortably teach it to beginners.}
+\footnotetext[2]{\textbf{Specialist} - I have extensive experience with this skill and teaching it to practitioners.}
