@@ -58,45 +58,33 @@ cloud-based \textit{JupyterHub}. Certified
     \href{https://github.com/Openscapes/seaside-chat-psychological-safety/}{Psychological Safety Discussion Group}
   },
   {%
-    Invited panelist on
+    Invited panelist:
     \href{https://mfisher87.github.io/presentation-20230926-nna-webinar/}{"Making Arctic Science Open Science" \textit{Navigating the New Arctic} Community Office webinar}
   },
   {%
-    Co-author and co-investigator on
+    Co-author, co-investigator if funded:
     \href{https://github.com/nsidc/earthaccess-proposal-2024-nasa-roses}{NASA ROSES proposal seeking sustainment funding for \textit{earthaccess}}
   },
   {%
-    \href{https://cires.colorado.edu/about/institutional-programs/outstanding-performance-awards/all-recipients}{2022 CIRES Outstanding Performance Award recipient}
-    - for high-impact work in science communication
-  },
-  {%
-    Co-author of \href{https://qgreenland.org/}{\textit{QGreenland}},
+    Co-author: \href{https://qgreenland.org/}{\textit{QGreenland}},
     a free interdisciplinary Greenland-focused GIS analysis and visualization environment
   },
   {%
-    Core contributor to \href{https://qgreenland-net.github.io/}{QGreenland-Net}, a
+    Core contributor: \href{https://qgreenland-net.github.io/}{QGreenland-Net}, a
     3-year follow-up collaboration between Arctic Data Center (ADC) and NSIDC which
     seeks to build an Open Geospatial Data Cloud (OGDC) to improve discoverability,
     accessibility, and interoperability for geospatial data
   },
-  {Co-author and co-facilitator for the
+  {Co-author, co-facilitator:
     \href{https://github.com/qgreenland-workshop-2023-researcher/}{\textit{QGreenland 2023 Researcher Workshop}}
   },
-  {Improved
-    \href{https://github.com/CryoInTheCloud/hub-image/pull/59/files}{accessibility} and
-    \href{https://github.com/CryoInTheCloud/hub-image/issues/60}{performance}
-    of \textit{QGIS} desktop software in cloud-based \textit{JupyterHub} environment;
-    \href{https://blog.jupyter.org/desktop-gis-software-in-the-cloud-with-jupyterhub-ddced297019a}{authored a guest post on Jupyter Blog}
-    and
-    \href{https://agu.confex.com/agu/fm23/meetingapp.cgi/Paper/1365725}{presented at American Geophysical Union (AGU) 2023 Annual Meeting} on this work
-  },
-  {Architected and implemented geospatial database (PostGIS) models and applications},
-  {Architected and implemented a graphical asynchronous data ordering system for NSIDC data},
-  {Created data processing pipelines and services for research data including:
+  {Architect and developer: geospatial database (PostGIS) models and applications},
+  {Architect and developer: graphical data ordering system for NSIDC data},
+  {Developer: data processing pipelines and services for research data including:
     \href{https://nsidc.org/data/g02135}{\textit{Sea Ice Index}},
     \href{https://nsidc.org/data/nsidc-0102}{\textit{Images of Antarctic Ice Shelves}}
   },
-  {Developed geospatial data visualization applications including:
+  {Developer: geospatial data visualization applications, including
     \href{https://nsidc.org/arcticseaicenews/charctic-interactive-sea-ice-graph/}{\textit{ChArctic}},
     \href{https://nsidc.org/apps/aross-leo-map/}{\textit{Arctic Rain on Snow Study Interactive Map}},
     \href{https://nsidc.org/snow-today/snow-viewer}{\textit{Snow Today}},
@@ -106,17 +94,29 @@ cloud-based \textit{JupyterHub}. Certified
     and
     \href{https://nsidc.org/greenland-today/greenland-surface-melt-extent-interactive-chart/}{\textit{Greenland Today}}
   },
-  {Modernized legacy software and services}
+  {Improved
+    \href{https://github.com/CryoInTheCloud/hub-image/pull/59/files}{accessibility} and
+    \href{https://github.com/CryoInTheCloud/hub-image/issues/60}{performance}
+    of \textit{QGIS} desktop software in cloud-based \textit{JupyterHub} environment;
+    \href{https://blog.jupyter.org/desktop-gis-software-in-the-cloud-with-jupyterhub-ddced297019a}{authored a guest post on Jupyter Blog}
+    and
+    \href{https://agu.confex.com/agu/fm23/meetingapp.cgi/Paper/1365725}{presented at American Geophysical Union (AGU) 2023 Annual Meeting} on this work
+  },
+  {Modernized legacy software and services},
+  {%
+    \href{https://cires.colorado.edu/about/institutional-programs/outstanding-performance-awards/all-recipients}{2022 CIRES Outstanding Performance Award recipient}
+    - for high-impact work in science communication
+  }
 }
 
 \cvevent{Jun. 2008 - Apr. 2016}{Senior Software Engineer}{Discover Financial Services}{
-  {Developed and extended distributed systems on IBM AIX/GPFS and z/OS mainframe infrastructure},
-  {Developed
+  {Developer: distributed systems on IBM AIX/GPFS and z/OS mainframe infrastructure},
+  {Developer:
     \href{https://www.discover.com/credit-cards/card-smarts/credit-card-rewards/}{distributed cardmember rewards processing system}
     with dozens of vendor integrations serving >50 million users
   },
+  {Developer: business tools for configuring unique rewards promotions and analyzing performance},
   {Extended a proprietary version control system to add branch support},
-  {Developed business tools for configuring unique rewards promotions and analyzing performance},
   {Designed relational database (Oracle, IBM DB2) models}
 }
 
