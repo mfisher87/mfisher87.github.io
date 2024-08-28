@@ -2,6 +2,11 @@
 title: "Anaconda's 2024 terms of service changes"
 subtitle: "What they mean (I think), what to do, and what not to do."
 date: "2024-08-25"
+author:
+  - name: "Matt Fisher"
+    orcid: "0000-0003-3260-5445"
+  - name: "Jaime Rodríguez-Guerra Pedregal"
+    orcid: "0000-0001-8974-1566"
 categories:
   - "conda"
 ---
