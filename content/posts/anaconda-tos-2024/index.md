@@ -134,9 +134,10 @@ There are many other options, but this one is the most straightforward, in my vi
 ### What not to do
 
 * Don't leave the Anaconda ecosystem -- the open source community has our backs.
-* Don't block <https://anaconda.org> in your corporate network.
+* Don't block `[conda].anaconda.org` in your corporate network.
   It is free to use for free channels like `"conda-forge"`.
   If and when that changes, the Conda Forge community will provide robust alternatives.
+  Note you can block `repo.anaconda.com` to prevent access to the most common access point of `defaults`.
 * Don't create a policy preventing installation or use of the `conda` command.
 
 
