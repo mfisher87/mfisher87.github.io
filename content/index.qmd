@@ -38,7 +38,12 @@ display(Markdown(
 ))
 ```
 
-I am currently employed as a Research Associate (Software Developer) at
+I am currently employed as a Community Engagement Manager and Research Software
+Engineer at
+[Schmidt Center for Data Science and Environment](https://dse.berkeley.edu/) at
+[University of California, Berkeley](https://www.berkeley.edu/).
+
+Previously, I worked as a Research Associate (Software Developer) at
 [National Snow and Ice Data Center (NSIDC)](https://nsidc.org).
 
 
