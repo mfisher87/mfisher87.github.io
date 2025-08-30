@@ -7,6 +7,9 @@ Inspired by an
 I will record tools I use to reduce my cognitive load on this page! My favorites will be
 marked with a ⭐!
 
+
+## Tools
+
 * ⭐ [Git](https://git-scm.com/): Version control is a necessary part of every day
   knowledge work, even if you don't count software. **Without tools to help us do
   version control, we invent our own version control systems, and that rarely works
@@ -26,6 +29,55 @@ marked with a ⭐!
       contributor doesn't install pre-commit, the checks will run on pushed commits.
       This service will also ensure that version numbers in your pre-commit
       configuration are kept up-to-date automatically; one less thing to think about!
+* ⭐ [Pixi](https://pixi.sh): A new package management tool for conda and PyPI packages.
+  It drastically reduces the cognitive load of the typical conda workflow by managing
+  your dependency manifest and lockfiles for you.
+  It's also fast -- waiting minutes for an environment solve can really mess up your
+  working memory.
+
+
+## Methods
+
+* ⭐ Type annotations and checking: When working in a language that doesn't support type
+  annotations, I use additional tooling (e.g. Mypy, maybe one day
+  [Ty](https://docs.astral.sh/ty/)) or a transpiled language (e.g. TypeScript) to enable
+  type annotation and checking. By explicitly documenting and verifying correctness of
+  interfaces, I need to hold less information about how different parts of the codebase
+  talk to each other.
+* ⭐ Whitespace: Vertical whitespace can explicitly indicate boundaries
+  between concepts.
+  For example, when writing prose I like to write lots of small paragraphs and use lots
+  of headers and subheaders to make information hierarchy explicit.
+  I also love the
+  [one sentence per line](https://nick.groenen.me/notes/one-sentence-per-line/)
+  technique when writing markdown -- it's clear when my sentences are too long and when
+  I am writing redundantly.
+* Early returns/raises: Put exceptions first, and core business logic last.
+  Which is easier to understand?
+
+  ```python
+  if not is_ready:
+      raise NotReadyException
+  if not is_set:
+      raise NotSetException
+
+  # Business logic: go!
+  ```
+
+  Or:
+
+  ```python
+  if is_ready and is_set:
+      # Business logic: go!
+  elif not is_ready:
+      raise NotReadyException
+  elif not is_set:
+      raise NotSetException
+  ```
+
+* Pair programming: There's no better way to understand where cognitive load is a
+  problem in your codebase or writing than pair programming and listening to another
+  human's perspective.
 
 
 ## Python
