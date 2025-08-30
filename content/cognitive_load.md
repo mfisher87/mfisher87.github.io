@@ -17,6 +17,7 @@ marked with a ⭐!
 
   ![_Piled Higher and Deeper_ by Jorge Cham <https://www.phdcomics.com>](https://uidaholib.github.io/get-git/images/phd101212s.gif)
 
+<!-- alex ignore hooks just -->
 * ⭐ [pre-commit](https://pre-commit.com/): A tool for sharing
   [Git hooks](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks) in a standard
   way.
@@ -46,7 +47,7 @@ marked with a ⭐!
   type annotation and checking.
   By explicitly documenting and verifying correctness of interfaces, I need to hold less
   information about how different parts of the codebase talk to each other.
-* ⭐ Whitespace: Vertical whitespace can explicitly indicate boundaries
+* ⭐ Vertical space: Intentional vertical space can explicitly indicate boundaries
   between concepts.
   For example, when writing prose I like to write lots of small paragraphs and use lots
   of headers and subheaders to make information hierarchy explicit.
@@ -87,6 +88,7 @@ marked with a ⭐!
 I write a lot of Python, and I find these tools reduce my cognitive load and in many
 cases, also reduce the amount of typing I have to do, which is good for my health.
 
+<!-- alex ignore just black -->
 * [Black](https://github.com/psf/black): Instead of worrying about formatting, which I
   can be very picky about, I focus on the problem I'm trying to solve and let Black
   format for me.
@@ -103,7 +105,7 @@ cases, also reduce the amount of typing I have to do, which is good for my healt
   while my tools do magical things like upgrade my code to use new features in new
   Python releases.**
 * ⭐ [Python type annotations & checker](https://docs.python.org/3/library/typing.html):
-  While Python is known to be easy to read, it's possible to write hard-to-read Python.
+  While Python is known to be readable, it's possible to write hard-to-read Python.
   One way is by naming variables ambiguously and passing those variables through a deep
   stack of function calls.
   To debug an inner function's behavior, I have to debug or climb my way up the stack to
