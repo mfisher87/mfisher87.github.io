@@ -2,10 +2,10 @@
 title: "Cognitive load"
 ---
 
-Inspired by an [amazing talk by Julia
-Evans](https://jvns.ca/blog/2023/10/06/new-talk--making-hard-things-easy/), I will
-record tools I use to reduce my cognitive load on this page! My favorites will be marked
-with a ⭐!
+Inspired by an
+[amazing talk by Julia Evans](https://jvns.ca/blog/2023/10/06/new-talk--making-hard-things-easy/),
+I will record tools I use to reduce my cognitive load on this page! My favorites will be
+marked with a ⭐!
 
 * ⭐ [Git](https://git-scm.com/): Version control is a necessary part of every day
   knowledge work, even if you don't count software. **Without tools to help us do
@@ -14,11 +14,11 @@ with a ⭐!
 
   ![_Piled Higher and Deeper_ by Jorge Cham <https://www.phdcomics.com>](https://uidaholib.github.io/get-git/images/phd101212s.gif)
 
-* ⭐ [pre-commit](https://pre-commit.com/): A tool for sharing [Git
-  hooks](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks) in a standard way.
-  This enables linting, formatting, analysis, and more to occur automatically at
-  commit-time instead of needing to be operated by a human. I no longer need to think
-  "I should remember to lint before committing" (and I often forget); it just happens.
+* ⭐ [pre-commit](https://pre-commit.com/): A tool for sharing
+  [Git hooks](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks) in a standard
+  way.  This enables linting, formatting, analysis, and more to occur automatically at
+  commit-time instead of needing to be operated by a human. I no longer need to think "I
+  should remember to lint before committing" (and I often forget); it just happens.
   **Of all the tools I use, nothing has had a larger impact than pre-commit; it enhances
   every single other tool by enabling them to work like magic in the background.**
     * [pre-commit.ci](https://pre-commit.ci/): A free zero-config-required CI service
