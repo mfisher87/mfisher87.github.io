@@ -1,3 +1,4 @@
 [codespell]
 # A list of exact lines that will be ignored
 exclude-file = .codespellignore
+skip = pixi.lock
