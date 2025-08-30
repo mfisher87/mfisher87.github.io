@@ -74,3 +74,9 @@ trivia I used to have memorized. Thankfully, I have tools to help me 🤓
 * [Shellcheck](https://www.shellcheck.net/): As mentioned in Julia's talk, Shellcheck
   knows most of Bash's "gotchas" and frees you to worry about your problems instead of
   Bash's problems.
+
+
+## Resources
+
+* [Cognitive load is what matters](https://minds.md/zakirullin/cognitive) by Artem
+  Zakirullin
