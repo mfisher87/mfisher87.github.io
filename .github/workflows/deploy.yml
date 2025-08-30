@@ -8,49 +8,28 @@ on:
   workflow_dispatch:
 
 
-# Sets permissions of the GITHUB_TOKEN
-permissions:
-  # For GitHub Pages:
-  contents: "read"
-  pages: "write"
-  id-token: "write"
-
-
 # Allow one concurrent deployment
 concurrency:
   group: "pages"
   cancel-in-progress: true
 
 
-# Default to bash in login mode
-# https://github.com/mamba-org/provision-with-micromamba#IMPORTANT
-defaults:
-  run:
-    shell: "bash -l {0}"
-
-
 jobs:
-  # Build job
   build:
     runs-on: "ubuntu-latest"
     steps:
       - name: "Checkout"
         uses: "actions/checkout@v4"
 
-      - name: "Install Conda environment"
-        uses: "mamba-org/setup-micromamba@v2"
-        with:
-          environment-file: "conda-lock.yml"
-          environment-name: "ci"
-          cache-environment: true
+      - uses: "prefix-dev/setup-pixi@v0.8.8"
+      - run: "pixi install"
 
       # This takes forever. It would be amazing to install TinyTeX as a conda
       # dependency and cache it.
       - name: "Install TinyTeX"
         run: "quarto install tinytex"
 
-      - name: "Render Quarto website"
-        run: "quarto render ./content"
+      - run: "pixi run render"
 
       - name: "Upload site artifact"
         uses: "actions/upload-pages-artifact@v3"
