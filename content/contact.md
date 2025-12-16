@@ -10,7 +10,7 @@ my phone.
 Let's keep in touch!
 
 
-## Communities 
+## Communities
 
 You can find me in any of the [communities I am a member of](/communities.md).
 I'll be **most responsive** on the official Zulip or Slack chat channels for these
