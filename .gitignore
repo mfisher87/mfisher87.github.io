@@ -2,3 +2,6 @@
 # pixi environments
 .pixi
 *.egg-info
+
+# Javascript dependencies
+node_modules/

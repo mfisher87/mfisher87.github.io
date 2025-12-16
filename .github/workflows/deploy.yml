@@ -27,7 +27,7 @@ jobs:
       # This takes forever. It would be amazing to install TinyTeX as a conda
       # dependency and cache it.
       - name: "Install TinyTeX"
-        run: "quarto install tinytex"
+        run: "pixi run quarto install tinytex"
 
       - run: "pixi run render"
 
