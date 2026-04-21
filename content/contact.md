@@ -10,6 +10,15 @@ my phone.
 Let's keep in touch!
 
 
+## Main project: GeoJupyter!
+
+My main project right now is [GeoJupyter](https://geojupyter.org/).
+
+You can most reliably find me on the [Jupyter Zulip](https://jupyter.zulipchat.com)
+hanging out in the
+[#geojupyter channel](https://jupyter.zulipchat.com/#narrow/channel/471314-geojupyter).
+
+
 ## Communities
 
 You can find me in any of the [communities I am a member of](/communities.md).
